@@ -1,5 +1,5 @@
 describe "a sample" do
   it "should pass" do
-    true.should be_true
+    # true
   end
 end
