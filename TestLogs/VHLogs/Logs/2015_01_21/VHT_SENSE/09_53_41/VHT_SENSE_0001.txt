@@ -1,0 +1,352 @@
+2015-01-21 09:53:41.323|MSG05|*** SENSe START ***|1
+2015-01-21 09:53:41.340|MSG05|*** VHT_SENSe Version 7.6.10.2943 INITIALIZING USING CONFIGURATION C:\Program Files (x86)\Virtual Hold Technology\SENSe\SENSe Configuration.xml ***|5
+2015-01-21 09:53:41.381|MSG05|*** VHT_SENSe Version 7.6.10.2943 INITIALIZATION SUCCEEDED ***|5
+2015-01-21 09:53:41.469|MSG04|Server socket opened at 10.30.0.110:15240|5
+2015-01-21 09:53:41.469|MSG04|TCPInterface.Server.Initialize: Listening on 10.30.0.110 port 15240|5
+2015-01-21 09:53:44.389|MSG05|*** VHT_SENSe Version 7.6.10.2943 STARTUP INITIATED ***|1|6
+2015-01-21 09:53:44.677|MSG01|WMIManager.IsComputerRunning: JUBILEE invoking WMI on JUBILEE does not support running Win32_PingStatus. Attempting ping using Get OS Information|1|6
+2015-01-21 09:53:46.899|MSG01|ERROR: GetLogicalMemory exception. Input string was not in a correct format.|1|6
+2015-01-21 09:53:49.096|MSG01|WARNING: Service VHT_QWatch_Client NOT RUNNING on JUBILEE|1|6
+2015-01-21 09:53:49.096|MSG05|Program.IsRunning: Service 'QWatchClient' on Server JUBILEE is Stopped|1|6
+2015-01-21 09:53:49.258|MSG01|WARNING: Service VHT_GlobalCall_IVR NOT RUNNING on JUBILEE|1|6
+2015-01-21 09:53:49.259|MSG05|Program.IsRunning: Service 'IVR' on Server JUBILEE is Stopped|1|6
+2015-01-21 09:53:49.427|MSG01|WARNING: Service VHT_Provider NOT RUNNING on JUBILEE|1|6
+2015-01-21 09:53:49.427|MSG05|Program.IsRunning: Service 'ProviderService' on Server JUBILEE is Stopped|1|6
+2015-01-21 09:53:49.594|MSG01|WARNING: Service VHT_OperationModeServer NOT RUNNING on JUBILEE|1|6
+2015-01-21 09:53:49.595|MSG05|Program.IsRunning: Service 'OpModeService' on Server JUBILEE is Stopped|1|6
+2015-01-21 09:53:49.762|MSG01|WARNING: Service VHT_Message_Bus NOT RUNNING on JUBILEE|1|6
+2015-01-21 09:53:49.762|MSG05|Program.IsRunning: Service 'MessageBus' on Server JUBILEE is Stopped|1|6
+2015-01-21 09:53:49.926|MSG01|WARNING: Service VHT_QueueManager NOT RUNNING on JUBILEE|1|6
+2015-01-21 09:53:49.927|MSG05|Program.IsRunning: Service 'QueueManager' on Server JUBILEE is Stopped|1|6
+2015-01-21 09:53:50.093|MSG01|WARNING: Service VHT_ReportWriter NOT RUNNING on JUBILEE|1|6
+2015-01-21 09:53:50.094|MSG05|Program.IsRunning: Service 'ReportWriterService' on Server JUBILEE is Stopped|1|6
+2015-01-21 09:53:50.097|MSG01|>>> Step.Execute: Step: Operation Message, Target 'SENSe Started', Index '1'|1|6
+2015-01-21 09:53:50.097|MSG04|>>> SENDING MESSAGE 'SENSe Started'|1|6
+2015-01-21 09:53:52.302|MSG01|BEGIN Sequence.Execute: 'Start'|1|6
+2015-01-21 09:53:52.302|MSG01|>>> Step.Execute: Step: Operation Message, Target 'Start Initiated', Index '000001.0000'|1|6
+2015-01-21 09:53:52.302|MSG04|>>> SENDING MESSAGE 'Start Initiated'|1|6
+2015-01-21 09:53:52.302|MSG01|>>> Step.Execute: Step: Operation Start, Target 'MessageBus', Index '000002.0000'|1|6
+2015-01-21 09:53:52.302|MSG04|>>> STARTING 'MessageBus'|1|6
+2015-01-21 09:53:52.470|MSG01|WARNING: Service VHT_Message_Bus NOT RUNNING on JUBILEE|1|6
+2015-01-21 09:53:52.470|MSG05|Program.IsRunning: Service 'MessageBus' on Server JUBILEE is Stopped|1|6
+2015-01-21 09:53:52.470|MSG05|Program.Start: Starting Service 'MessageBus' on server JUBILEE, attempt 1|1|6
+2015-01-21 09:53:52.472|MSG01|Stopping VHT_Message_Bus on JUBILEE...|1|6
+2015-01-21 09:53:52.504|MSG01|... Service VHT_Message_Bus stopping in progress on JUBILEE|1|6
+2015-01-21 09:53:52.505|MSG01|Starting service VHT_Message_Bus on JUBILEE...|1|6
+2015-01-21 09:53:52.611|MSG01|... Service VHT_Message_Bus started on JUBILEE|1|6
+2015-01-21 09:53:57.837|MSG05|Process VHT_Message_Bus.exe (PID 6540) RUNNING on JUBILEE|1|6
+2015-01-21 09:53:57.838|MSG05|Service VHT_Message_Bus RUNNING on JUBILEE. State Running|1|6
+2015-01-21 09:53:57.839|MSG05|Program.IsRunning: Service 'MessageBus' on Server JUBILEE is Started|1|6
+2015-01-21 09:53:57.839|MSG01|>>> Step.Execute: Step: Operation Start, Target 'ProviderService', Index '000003.0000'|1|6
+2015-01-21 09:53:57.839|MSG04|>>> STARTING 'ProviderService'|1|6
+2015-01-21 09:53:58.003|MSG01|WARNING: Service VHT_Provider NOT RUNNING on JUBILEE|1|6
+2015-01-21 09:53:58.004|MSG05|Program.IsRunning: Service 'ProviderService' on Server JUBILEE is Stopped|1|6
+2015-01-21 09:53:58.004|MSG05|Program.Start: Starting Service 'ProviderService' on server JUBILEE, attempt 1|1|6
+2015-01-21 09:53:58.004|MSG01|Stopping VHT_Provider on JUBILEE...|1|6
+2015-01-21 09:53:58.034|MSG01|... Service VHT_Provider stopping in progress on JUBILEE|1|6
+2015-01-21 09:53:58.034|MSG01|Starting service VHT_Provider on JUBILEE...|1|6
+2015-01-21 09:53:58.384|MSG01|... Service VHT_Provider started on JUBILEE|1|6
+2015-01-21 09:54:03.603|MSG05|Process VHT_Provider_Service.exe (PID 11236) RUNNING on JUBILEE|1|6
+2015-01-21 09:54:03.604|MSG05|Service VHT_Provider RUNNING on JUBILEE. State Running|1|6
+2015-01-21 09:54:03.605|MSG05|Program.IsRunning: Service 'ProviderService' on Server JUBILEE is Started|1|6
+2015-01-21 09:54:03.605|MSG01|>>> Step.Execute: Step: Operation Start, Target 'OpModeService', Index '000004.0000'|1|6
+2015-01-21 09:54:03.605|MSG04|>>> STARTING 'OpModeService'|1|6
+2015-01-21 09:54:03.771|MSG01|WARNING: Service VHT_OperationModeServer NOT RUNNING on JUBILEE|1|6
+2015-01-21 09:54:03.772|MSG05|Program.IsRunning: Service 'OpModeService' on Server JUBILEE is Stopped|1|6
+2015-01-21 09:54:03.772|MSG05|Program.Start: Starting Service 'OpModeService' on server JUBILEE, attempt 1|1|6
+2015-01-21 09:54:03.772|MSG01|Stopping VHT_OperationModeServer on JUBILEE...|1|6
+2015-01-21 09:54:03.801|MSG01|... Service VHT_OperationModeServer stopping in progress on JUBILEE|1|6
+2015-01-21 09:54:03.801|MSG01|Starting service VHT_OperationModeServer on JUBILEE...|1|6
+2015-01-21 09:54:03.918|MSG01|... Service VHT_OperationModeServer started on JUBILEE|1|6
+2015-01-21 09:54:09.141|MSG05|Process VHT_OperationModeService.exe (PID 7912) RUNNING on JUBILEE|1|6
+2015-01-21 09:54:09.142|MSG05|Service VHT_OperationModeServer RUNNING on JUBILEE. State Running|1|6
+2015-01-21 09:54:09.143|MSG05|Program.IsRunning: Service 'OpModeService' on Server JUBILEE is Started|1|6
+2015-01-21 09:54:09.143|MSG01|>>> Step.Execute: Step: Operation Start, Target 'ReportWriterService', Index '000005.0000'|1|6
+2015-01-21 09:54:09.143|MSG04|>>> STARTING 'ReportWriterService'|1|6
+2015-01-21 09:54:09.312|MSG01|WARNING: Service VHT_ReportWriter NOT RUNNING on JUBILEE|1|6
+2015-01-21 09:54:09.313|MSG05|Program.IsRunning: Service 'ReportWriterService' on Server JUBILEE is Stopped|1|6
+2015-01-21 09:54:09.313|MSG05|Program.Start: Starting Service 'ReportWriterService' on server JUBILEE, attempt 1|1|6
+2015-01-21 09:54:09.313|MSG01|Stopping VHT_ReportWriter on JUBILEE...|1|6
+2015-01-21 09:54:09.342|MSG01|... Service VHT_ReportWriter stopping in progress on JUBILEE|1|6
+2015-01-21 09:54:09.342|MSG01|Starting service VHT_ReportWriter on JUBILEE...|1|6
+2015-01-21 09:54:09.461|MSG01|... Service VHT_ReportWriter started on JUBILEE|1|6
+2015-01-21 09:54:14.685|MSG05|Process VHT_ReportWriter.exe (PID 9568) RUNNING on JUBILEE|1|6
+2015-01-21 09:54:14.686|MSG05|Service VHT_ReportWriter RUNNING on JUBILEE. State Running|1|6
+2015-01-21 09:54:14.687|MSG05|Program.IsRunning: Service 'ReportWriterService' on Server JUBILEE is Started|1|6
+2015-01-21 09:54:14.687|MSG01|>>> Step.Execute: Step: Operation Start, Target 'QueueManager', Index '000006.0000'|1|6
+2015-01-21 09:54:14.687|MSG04|>>> STARTING 'QueueManager'|1|6
+2015-01-21 09:54:14.854|MSG01|WARNING: Service VHT_QueueManager NOT RUNNING on JUBILEE|1|6
+2015-01-21 09:54:14.854|MSG05|Program.IsRunning: Service 'QueueManager' on Server JUBILEE is Stopped|1|6
+2015-01-21 09:54:14.854|MSG05|Program.Start: Starting Service 'QueueManager' on server JUBILEE, attempt 1|1|6
+2015-01-21 09:54:14.854|MSG01|Stopping VHT_QueueManager on JUBILEE...|1|6
+2015-01-21 09:54:14.884|MSG01|... Service VHT_QueueManager stopping in progress on JUBILEE|1|6
+2015-01-21 09:54:14.884|MSG01|Starting service VHT_QueueManager on JUBILEE...|1|6
+2015-01-21 09:54:15.237|MSG01|... Service VHT_QueueManager started on JUBILEE|1|6
+2015-01-21 09:54:35.469|MSG05|Process VHT_QueueManager_Service.exe (PID 9828) RUNNING on JUBILEE|1|6
+2015-01-21 09:54:35.470|MSG05|Service VHT_QueueManager RUNNING on JUBILEE. State Running|1|6
+2015-01-21 09:54:35.471|MSG05|Program.IsRunning: Service 'QueueManager' on Server JUBILEE is Started|1|6
+2015-01-21 09:54:35.471|MSG01|>>> Step.Execute: Step: Operation Start, Target 'IVR', Index '000007.0000'|1|6
+2015-01-21 09:54:35.471|MSG04|>>> STARTING 'IVR'|1|6
+2015-01-21 09:54:35.645|MSG01|WARNING: Service VHT_GlobalCall_IVR NOT RUNNING on JUBILEE|1|6
+2015-01-21 09:54:35.645|MSG05|Program.IsRunning: Service 'IVR' on Server JUBILEE is Stopped|1|6
+2015-01-21 09:54:35.645|MSG05|Program.Start: Starting Service 'IVR' on server JUBILEE, attempt 1|1|6
+2015-01-21 09:54:35.646|MSG01|Stopping VHT_GlobalCall_IVR on JUBILEE...|1|6
+2015-01-21 09:54:35.677|MSG01|... Service VHT_GlobalCall_IVR stopping in progress on JUBILEE|1|6
+2015-01-21 09:54:35.677|MSG01|Starting service VHT_GlobalCall_IVR on JUBILEE...|1|6
+2015-01-21 09:54:37.853|MSG01|... Service VHT_GlobalCall_IVR started on JUBILEE|1|6
+2015-01-21 09:54:58.073|MSG05|Process VHT_GlobalCall_IVR_Service.exe (PID 8052) RUNNING on JUBILEE|1|6
+2015-01-21 09:54:58.074|MSG05|Service VHT_GlobalCall_IVR RUNNING on JUBILEE. State Running|1|6
+2015-01-21 09:54:58.074|MSG05|Program.IsRunning: Service 'IVR' on Server JUBILEE is Started|1|6
+2015-01-21 09:54:58.074|MSG01|>>> Step.Execute: Step: Operation Start, Target 'QWatchClient', Index '000008.0000'|1|6
+2015-01-21 09:54:58.074|MSG04|>>> STARTING 'QWatchClient'|1|6
+2015-01-21 09:54:58.239|MSG01|WARNING: Service VHT_QWatch_Client NOT RUNNING on JUBILEE|1|6
+2015-01-21 09:54:58.240|MSG05|Program.IsRunning: Service 'QWatchClient' on Server JUBILEE is Stopped|1|6
+2015-01-21 09:54:58.240|MSG05|Program.Start: Starting Service 'QWatchClient' on server JUBILEE, attempt 1|1|6
+2015-01-21 09:54:58.240|MSG01|Stopping VHT_QWatch_Client on JUBILEE...|1|6
+2015-01-21 09:54:58.269|MSG01|... Service VHT_QWatch_Client stopping in progress on JUBILEE|1|6
+2015-01-21 09:54:58.269|MSG01|Starting service VHT_QWatch_Client on JUBILEE...|1|6
+2015-01-21 09:54:58.674|MSG01|... Service VHT_QWatch_Client started on JUBILEE|1|6
+2015-01-21 09:55:03.942|MSG05|Process VHT_QWatch_Client_Service.exe (PID 8560) RUNNING on JUBILEE|1|6
+2015-01-21 09:55:03.943|MSG05|Service VHT_QWatch_Client RUNNING on JUBILEE. State Running|1|6
+2015-01-21 09:55:03.944|MSG05|Program.IsRunning: Service 'QWatchClient' on Server JUBILEE is Started|1|6
+2015-01-21 09:55:03.944|MSG01|>>> Step.Execute: Step: Operation Message, Target 'Start Completed', Index '000009.0000'|1|6
+2015-01-21 09:55:03.944|MSG04|>>> SENDING MESSAGE 'Start Completed'|1|6
+2015-01-21 09:55:03.944|MSG01|END Sequence.Execute: 'Start'|1|6
+2015-01-21 09:55:04.267|MSG05|*** VHT_SENSe Version 7.6.10.2943 STARTUP COMPLETED ***|1|6
+2015-01-21 09:55:04.319|MSG05|Process VHT_QWatch_Client_Service.exe (PID 8560) RUNNING on JUBILEE|4|9
+2015-01-21 09:55:04.319|MSG05|Service VHT_QWatch_Client RUNNING on JUBILEE. State Running|4|9
+2015-01-21 09:55:04.320|MSG05|Program.IsRunning: Service 'QWatchClient' on Server JUBILEE is Started|4|9
+2015-01-21 09:55:04.577|MSG05|Process VHT_GlobalCall_IVR_Service.exe (PID 8052) RUNNING on JUBILEE|4|9
+2015-01-21 09:55:04.578|MSG05|Service VHT_GlobalCall_IVR RUNNING on JUBILEE. State Running|4|9
+2015-01-21 09:55:04.578|MSG05|Program.IsRunning: Service 'IVR' on Server JUBILEE is Started|4|9
+2015-01-21 09:55:04.797|MSG05|Process VHT_Provider_Service.exe (PID 11236) RUNNING on JUBILEE|4|9
+2015-01-21 09:55:04.798|MSG05|Service VHT_Provider RUNNING on JUBILEE. State Running|4|9
+2015-01-21 09:55:04.798|MSG05|Program.IsRunning: Service 'ProviderService' on Server JUBILEE is Started|4|9
+2015-01-21 09:55:05.017|MSG05|Process VHT_OperationModeService.exe (PID 7912) RUNNING on JUBILEE|4|9
+2015-01-21 09:55:05.018|MSG05|Service VHT_OperationModeServer RUNNING on JUBILEE. State Running|4|9
+2015-01-21 09:55:05.018|MSG05|Program.IsRunning: Service 'OpModeService' on Server JUBILEE is Started|4|9
+2015-01-21 09:55:05.237|MSG05|Process VHT_Message_Bus.exe (PID 6540) RUNNING on JUBILEE|4|9
+2015-01-21 09:55:05.238|MSG05|Service VHT_Message_Bus RUNNING on JUBILEE. State Running|4|9
+2015-01-21 09:55:05.238|MSG05|Program.IsRunning: Service 'MessageBus' on Server JUBILEE is Started|4|9
+2015-01-21 09:55:05.454|MSG05|Process VHT_QueueManager_Service.exe (PID 9828) RUNNING on JUBILEE|4|9
+2015-01-21 09:55:05.455|MSG05|Service VHT_QueueManager RUNNING on JUBILEE. State Running|4|9
+2015-01-21 09:55:05.455|MSG05|Program.IsRunning: Service 'QueueManager' on Server JUBILEE is Started|4|9
+2015-01-21 09:55:05.671|MSG05|Process VHT_ReportWriter.exe (PID 9568) RUNNING on JUBILEE|4|9
+2015-01-21 09:55:05.672|MSG05|Service VHT_ReportWriter RUNNING on JUBILEE. State Running|4|9
+2015-01-21 09:55:05.672|MSG05|Program.IsRunning: Service 'ReportWriterService' on Server JUBILEE is Started|4|9
+2015-01-21 09:55:05.672|MSG01|ProgramMonitorThread started for JUBILEE|4|9
+2015-01-21 09:55:05.672|MSG05|ProgramMonitorThread polling programs running on JUBILEE|4|9
+2015-01-21 09:55:05.893|MSG05|Process VHT_QWatch_Client_Service.exe (PID 8560) RUNNING on JUBILEE|4|9
+2015-01-21 09:55:05.894|MSG05|Service VHT_QWatch_Client RUNNING on JUBILEE. State Running|4|9
+2015-01-21 09:55:06.113|MSG05|Process VHT_GlobalCall_IVR_Service.exe (PID 8052) RUNNING on JUBILEE|4|9
+2015-01-21 09:55:06.114|MSG05|Service VHT_GlobalCall_IVR RUNNING on JUBILEE. State Running|4|9
+2015-01-21 09:55:06.168|MSG01|ERROR: GetLogicalMemory exception. Input string was not in a correct format.|3|8
+2015-01-21 09:55:06.337|MSG05|Process VHT_Provider_Service.exe (PID 11236) RUNNING on JUBILEE|4|9
+2015-01-21 09:55:06.337|MSG05|Service VHT_Provider RUNNING on JUBILEE. State Running|4|9
+2015-01-21 09:55:06.583|MSG05|Process VHT_OperationModeService.exe (PID 7912) RUNNING on JUBILEE|4|9
+2015-01-21 09:55:06.584|MSG05|Service VHT_OperationModeServer RUNNING on JUBILEE. State Running|4|9
+2015-01-21 09:55:06.823|MSG05|Process VHT_Message_Bus.exe (PID 6540) RUNNING on JUBILEE|4|9
+2015-01-21 09:55:06.824|MSG05|Service VHT_Message_Bus RUNNING on JUBILEE. State Running|4|9
+2015-01-21 09:55:07.044|MSG05|Process VHT_QueueManager_Service.exe (PID 9828) RUNNING on JUBILEE|4|9
+2015-01-21 09:55:07.045|MSG05|Service VHT_QueueManager RUNNING on JUBILEE. State Running|4|9
+2015-01-21 09:55:07.262|MSG05|Process VHT_ReportWriter.exe (PID 9568) RUNNING on JUBILEE|4|9
+2015-01-21 09:55:07.263|MSG05|Service VHT_ReportWriter RUNNING on JUBILEE. State Running|4|9
+2015-01-21 09:55:08.193|MSG01|ComputerMonitorThread started for JUBILEE|3|8
+2015-01-21 09:55:08.193|MSG05|ComputerMonitorThread polling for JUBILEE|3|8
+2015-01-21 09:56:07.266|MSG05|ProgramMonitorThread polling programs running on JUBILEE|4|9
+2015-01-21 09:56:07.492|MSG05|Process VHT_QWatch_Client_Service.exe (PID 8560) RUNNING on JUBILEE|4|9
+2015-01-21 09:56:07.492|MSG05|Service VHT_QWatch_Client RUNNING on JUBILEE. State Running|4|9
+2015-01-21 09:56:07.755|MSG05|Process VHT_GlobalCall_IVR_Service.exe (PID 8052) RUNNING on JUBILEE|4|9
+2015-01-21 09:56:07.756|MSG05|Service VHT_GlobalCall_IVR RUNNING on JUBILEE. State Running|4|9
+2015-01-21 09:56:07.968|MSG05|Process VHT_Provider_Service.exe (PID 11236) RUNNING on JUBILEE|4|9
+2015-01-21 09:56:07.969|MSG05|Service VHT_Provider RUNNING on JUBILEE. State Running|4|9
+2015-01-21 09:56:08.178|MSG05|Process VHT_OperationModeService.exe (PID 7912) RUNNING on JUBILEE|4|9
+2015-01-21 09:56:08.179|MSG05|Service VHT_OperationModeServer RUNNING on JUBILEE. State Running|4|9
+2015-01-21 09:56:08.390|MSG05|Process VHT_Message_Bus.exe (PID 6540) RUNNING on JUBILEE|4|9
+2015-01-21 09:56:08.391|MSG05|Service VHT_Message_Bus RUNNING on JUBILEE. State Running|4|9
+2015-01-21 09:56:08.602|MSG05|Process VHT_QueueManager_Service.exe (PID 9828) RUNNING on JUBILEE|4|9
+2015-01-21 09:56:08.602|MSG05|Service VHT_QueueManager RUNNING on JUBILEE. State Running|4|9
+2015-01-21 09:56:08.815|MSG05|Process VHT_ReportWriter.exe (PID 9568) RUNNING on JUBILEE|4|9
+2015-01-21 09:56:08.816|MSG05|Service VHT_ReportWriter RUNNING on JUBILEE. State Running|4|9
+2015-01-21 09:57:08.820|MSG05|ProgramMonitorThread polling programs running on JUBILEE|4|9
+2015-01-21 09:57:09.047|MSG05|Process VHT_QWatch_Client_Service.exe (PID 8560) RUNNING on JUBILEE|4|9
+2015-01-21 09:57:09.048|MSG05|Service VHT_QWatch_Client RUNNING on JUBILEE. State Running|4|9
+2015-01-21 09:57:09.280|MSG05|Process VHT_GlobalCall_IVR_Service.exe (PID 8052) RUNNING on JUBILEE|4|9
+2015-01-21 09:57:09.281|MSG05|Service VHT_GlobalCall_IVR RUNNING on JUBILEE. State Running|4|9
+2015-01-21 09:57:09.506|MSG05|Process VHT_Provider_Service.exe (PID 11236) RUNNING on JUBILEE|4|9
+2015-01-21 09:57:09.507|MSG05|Service VHT_Provider RUNNING on JUBILEE. State Running|4|9
+2015-01-21 09:57:09.733|MSG05|Process VHT_OperationModeService.exe (PID 7912) RUNNING on JUBILEE|4|9
+2015-01-21 09:57:09.734|MSG05|Service VHT_OperationModeServer RUNNING on JUBILEE. State Running|4|9
+2015-01-21 09:57:09.955|MSG05|Process VHT_Message_Bus.exe (PID 6540) RUNNING on JUBILEE|4|9
+2015-01-21 09:57:09.956|MSG05|Service VHT_Message_Bus RUNNING on JUBILEE. State Running|4|9
+2015-01-21 09:57:10.178|MSG05|Process VHT_QueueManager_Service.exe (PID 9828) RUNNING on JUBILEE|4|9
+2015-01-21 09:57:10.179|MSG05|Service VHT_QueueManager RUNNING on JUBILEE. State Running|4|9
+2015-01-21 09:57:10.401|MSG05|Process VHT_ReportWriter.exe (PID 9568) RUNNING on JUBILEE|4|9
+2015-01-21 09:57:10.402|MSG05|Service VHT_ReportWriter RUNNING on JUBILEE. State Running|4|9
+2015-01-21 09:58:10.405|MSG05|ProgramMonitorThread polling programs running on JUBILEE|4|9
+2015-01-21 09:58:10.637|MSG05|Process VHT_QWatch_Client_Service.exe (PID 8560) RUNNING on JUBILEE|4|9
+2015-01-21 09:58:10.638|MSG05|Service VHT_QWatch_Client RUNNING on JUBILEE. State Running|4|9
+2015-01-21 09:58:10.859|MSG05|Process VHT_GlobalCall_IVR_Service.exe (PID 8052) RUNNING on JUBILEE|4|9
+2015-01-21 09:58:10.860|MSG05|Service VHT_GlobalCall_IVR RUNNING on JUBILEE. State Running|4|9
+2015-01-21 09:58:11.083|MSG05|Process VHT_Provider_Service.exe (PID 11236) RUNNING on JUBILEE|4|9
+2015-01-21 09:58:11.084|MSG05|Service VHT_Provider RUNNING on JUBILEE. State Running|4|9
+2015-01-21 09:58:11.302|MSG05|Process VHT_OperationModeService.exe (PID 7912) RUNNING on JUBILEE|4|9
+2015-01-21 09:58:11.303|MSG05|Service VHT_OperationModeServer RUNNING on JUBILEE. State Running|4|9
+2015-01-21 09:58:11.525|MSG05|Process VHT_Message_Bus.exe (PID 6540) RUNNING on JUBILEE|4|9
+2015-01-21 09:58:11.526|MSG05|Service VHT_Message_Bus RUNNING on JUBILEE. State Running|4|9
+2015-01-21 09:58:11.748|MSG05|Process VHT_QueueManager_Service.exe (PID 9828) RUNNING on JUBILEE|4|9
+2015-01-21 09:58:11.749|MSG05|Service VHT_QueueManager RUNNING on JUBILEE. State Running|4|9
+2015-01-21 09:58:11.969|MSG05|Process VHT_ReportWriter.exe (PID 9568) RUNNING on JUBILEE|4|9
+2015-01-21 09:58:11.970|MSG05|Service VHT_ReportWriter RUNNING on JUBILEE. State Running|4|9
+2015-01-21 09:59:11.973|MSG05|ProgramMonitorThread polling programs running on JUBILEE|4|9
+2015-01-21 09:59:12.199|MSG05|Process VHT_QWatch_Client_Service.exe (PID 8560) RUNNING on JUBILEE|4|9
+2015-01-21 09:59:12.200|MSG05|Service VHT_QWatch_Client RUNNING on JUBILEE. State Running|4|9
+2015-01-21 09:59:12.420|MSG05|Process VHT_GlobalCall_IVR_Service.exe (PID 8052) RUNNING on JUBILEE|4|9
+2015-01-21 09:59:12.421|MSG05|Service VHT_GlobalCall_IVR RUNNING on JUBILEE. State Running|4|9
+2015-01-21 09:59:12.643|MSG05|Process VHT_Provider_Service.exe (PID 11236) RUNNING on JUBILEE|4|9
+2015-01-21 09:59:12.643|MSG05|Service VHT_Provider RUNNING on JUBILEE. State Running|4|9
+2015-01-21 09:59:12.861|MSG05|Process VHT_OperationModeService.exe (PID 7912) RUNNING on JUBILEE|4|9
+2015-01-21 09:59:12.862|MSG05|Service VHT_OperationModeServer RUNNING on JUBILEE. State Running|4|9
+2015-01-21 09:59:13.081|MSG05|Process VHT_Message_Bus.exe (PID 6540) RUNNING on JUBILEE|4|9
+2015-01-21 09:59:13.082|MSG05|Service VHT_Message_Bus RUNNING on JUBILEE. State Running|4|9
+2015-01-21 09:59:13.303|MSG05|Process VHT_QueueManager_Service.exe (PID 9828) RUNNING on JUBILEE|4|9
+2015-01-21 09:59:13.304|MSG05|Service VHT_QueueManager RUNNING on JUBILEE. State Running|4|9
+2015-01-21 09:59:13.526|MSG05|Process VHT_ReportWriter.exe (PID 9568) RUNNING on JUBILEE|4|9
+2015-01-21 09:59:13.526|MSG05|Service VHT_ReportWriter RUNNING on JUBILEE. State Running|4|9
+2015-01-21 10:00:08.243|MSG05|ComputerMonitorThread polling for JUBILEE|3|8
+2015-01-21 10:00:13.530|MSG05|ProgramMonitorThread polling programs running on JUBILEE|4|9
+2015-01-21 10:00:13.750|MSG05|Process VHT_QWatch_Client_Service.exe (PID 8560) RUNNING on JUBILEE|4|9
+2015-01-21 10:00:13.751|MSG05|Service VHT_QWatch_Client RUNNING on JUBILEE. State Running|4|9
+2015-01-21 10:00:13.971|MSG05|Process VHT_GlobalCall_IVR_Service.exe (PID 8052) RUNNING on JUBILEE|4|9
+2015-01-21 10:00:13.972|MSG05|Service VHT_GlobalCall_IVR RUNNING on JUBILEE. State Running|4|9
+2015-01-21 10:00:14.191|MSG05|Process VHT_Provider_Service.exe (PID 11236) RUNNING on JUBILEE|4|9
+2015-01-21 10:00:14.192|MSG05|Service VHT_Provider RUNNING on JUBILEE. State Running|4|9
+2015-01-21 10:00:14.413|MSG05|Process VHT_OperationModeService.exe (PID 7912) RUNNING on JUBILEE|4|9
+2015-01-21 10:00:14.414|MSG05|Service VHT_OperationModeServer RUNNING on JUBILEE. State Running|4|9
+2015-01-21 10:00:14.633|MSG05|Process VHT_Message_Bus.exe (PID 6540) RUNNING on JUBILEE|4|9
+2015-01-21 10:00:14.634|MSG05|Service VHT_Message_Bus RUNNING on JUBILEE. State Running|4|9
+2015-01-21 10:00:14.853|MSG05|Process VHT_QueueManager_Service.exe (PID 9828) RUNNING on JUBILEE|4|9
+2015-01-21 10:00:14.854|MSG05|Service VHT_QueueManager RUNNING on JUBILEE. State Running|4|9
+2015-01-21 10:00:15.076|MSG05|Process VHT_ReportWriter.exe (PID 9568) RUNNING on JUBILEE|4|9
+2015-01-21 10:00:15.077|MSG05|Service VHT_ReportWriter RUNNING on JUBILEE. State Running|4|9
+2015-01-21 10:01:15.081|MSG05|ProgramMonitorThread polling programs running on JUBILEE|4|9
+2015-01-21 10:01:15.309|MSG05|Process VHT_QWatch_Client_Service.exe (PID 8560) RUNNING on JUBILEE|4|9
+2015-01-21 10:01:15.309|MSG05|Service VHT_QWatch_Client RUNNING on JUBILEE. State Running|4|9
+2015-01-21 10:01:15.531|MSG05|Process VHT_GlobalCall_IVR_Service.exe (PID 8052) RUNNING on JUBILEE|4|9
+2015-01-21 10:01:15.531|MSG05|Service VHT_GlobalCall_IVR RUNNING on JUBILEE. State Running|4|9
+2015-01-21 10:01:15.754|MSG05|Process VHT_Provider_Service.exe (PID 11236) RUNNING on JUBILEE|4|9
+2015-01-21 10:01:15.755|MSG05|Service VHT_Provider RUNNING on JUBILEE. State Running|4|9
+2015-01-21 10:01:15.978|MSG05|Process VHT_OperationModeService.exe (PID 7912) RUNNING on JUBILEE|4|9
+2015-01-21 10:01:15.979|MSG05|Service VHT_OperationModeServer RUNNING on JUBILEE. State Running|4|9
+2015-01-21 10:01:16.197|MSG05|Process VHT_Message_Bus.exe (PID 6540) RUNNING on JUBILEE|4|9
+2015-01-21 10:01:16.198|MSG05|Service VHT_Message_Bus RUNNING on JUBILEE. State Running|4|9
+2015-01-21 10:01:16.418|MSG05|Process VHT_QueueManager_Service.exe (PID 9828) RUNNING on JUBILEE|4|9
+2015-01-21 10:01:16.418|MSG05|Service VHT_QueueManager RUNNING on JUBILEE. State Running|4|9
+2015-01-21 10:01:16.638|MSG05|Process VHT_ReportWriter.exe (PID 9568) RUNNING on JUBILEE|4|9
+2015-01-21 10:01:16.639|MSG05|Service VHT_ReportWriter RUNNING on JUBILEE. State Running|4|9
+2015-01-21 10:02:16.643|MSG05|ProgramMonitorThread polling programs running on JUBILEE|4|9
+2015-01-21 10:02:16.869|MSG05|Process VHT_QWatch_Client_Service.exe (PID 8560) RUNNING on JUBILEE|4|9
+2015-01-21 10:02:16.869|MSG05|Service VHT_QWatch_Client RUNNING on JUBILEE. State Running|4|9
+2015-01-21 10:02:17.091|MSG05|Process VHT_GlobalCall_IVR_Service.exe (PID 8052) RUNNING on JUBILEE|4|9
+2015-01-21 10:02:17.091|MSG05|Service VHT_GlobalCall_IVR RUNNING on JUBILEE. State Running|4|9
+2015-01-21 10:02:17.314|MSG05|Process VHT_Provider_Service.exe (PID 11236) RUNNING on JUBILEE|4|9
+2015-01-21 10:02:17.314|MSG05|Service VHT_Provider RUNNING on JUBILEE. State Running|4|9
+2015-01-21 10:02:17.537|MSG05|Process VHT_OperationModeService.exe (PID 7912) RUNNING on JUBILEE|4|9
+2015-01-21 10:02:17.537|MSG05|Service VHT_OperationModeServer RUNNING on JUBILEE. State Running|4|9
+2015-01-21 10:02:17.760|MSG05|Process VHT_Message_Bus.exe (PID 6540) RUNNING on JUBILEE|4|9
+2015-01-21 10:02:17.760|MSG05|Service VHT_Message_Bus RUNNING on JUBILEE. State Running|4|9
+2015-01-21 10:02:17.980|MSG05|Process VHT_QueueManager_Service.exe (PID 9828) RUNNING on JUBILEE|4|9
+2015-01-21 10:02:17.980|MSG05|Service VHT_QueueManager RUNNING on JUBILEE. State Running|4|9
+2015-01-21 10:02:18.203|MSG05|Process VHT_ReportWriter.exe (PID 9568) RUNNING on JUBILEE|4|9
+2015-01-21 10:02:18.204|MSG05|Service VHT_ReportWriter RUNNING on JUBILEE. State Running|4|9
+2015-01-21 10:03:18.207|MSG05|ProgramMonitorThread polling programs running on JUBILEE|4|9
+2015-01-21 10:03:18.433|MSG05|Process VHT_QWatch_Client_Service.exe (PID 8560) RUNNING on JUBILEE|4|9
+2015-01-21 10:03:18.434|MSG05|Service VHT_QWatch_Client RUNNING on JUBILEE. State Running|4|9
+2015-01-21 10:03:18.654|MSG05|Process VHT_GlobalCall_IVR_Service.exe (PID 8052) RUNNING on JUBILEE|4|9
+2015-01-21 10:03:18.655|MSG05|Service VHT_GlobalCall_IVR RUNNING on JUBILEE. State Running|4|9
+2015-01-21 10:03:18.872|MSG05|Process VHT_Provider_Service.exe (PID 11236) RUNNING on JUBILEE|4|9
+2015-01-21 10:03:18.873|MSG05|Service VHT_Provider RUNNING on JUBILEE. State Running|4|9
+2015-01-21 10:03:19.091|MSG05|Process VHT_OperationModeService.exe (PID 7912) RUNNING on JUBILEE|4|9
+2015-01-21 10:03:19.092|MSG05|Service VHT_OperationModeServer RUNNING on JUBILEE. State Running|4|9
+2015-01-21 10:03:19.312|MSG05|Process VHT_Message_Bus.exe (PID 6540) RUNNING on JUBILEE|4|9
+2015-01-21 10:03:19.313|MSG05|Service VHT_Message_Bus RUNNING on JUBILEE. State Running|4|9
+2015-01-21 10:03:19.535|MSG05|Process VHT_QueueManager_Service.exe (PID 9828) RUNNING on JUBILEE|4|9
+2015-01-21 10:03:19.536|MSG05|Service VHT_QueueManager RUNNING on JUBILEE. State Running|4|9
+2015-01-21 10:03:19.754|MSG05|Process VHT_ReportWriter.exe (PID 9568) RUNNING on JUBILEE|4|9
+2015-01-21 10:03:19.755|MSG05|Service VHT_ReportWriter RUNNING on JUBILEE. State Running|4|9
+2015-01-21 10:04:19.758|MSG05|ProgramMonitorThread polling programs running on JUBILEE|4|9
+2015-01-21 10:04:19.982|MSG05|Process VHT_QWatch_Client_Service.exe (PID 8560) RUNNING on JUBILEE|4|9
+2015-01-21 10:04:19.983|MSG05|Service VHT_QWatch_Client RUNNING on JUBILEE. State Running|4|9
+2015-01-21 10:04:20.207|MSG05|Process VHT_GlobalCall_IVR_Service.exe (PID 8052) RUNNING on JUBILEE|4|9
+2015-01-21 10:04:20.207|MSG05|Service VHT_GlobalCall_IVR RUNNING on JUBILEE. State Running|4|9
+2015-01-21 10:04:20.428|MSG05|Process VHT_Provider_Service.exe (PID 11236) RUNNING on JUBILEE|4|9
+2015-01-21 10:04:20.429|MSG05|Service VHT_Provider RUNNING on JUBILEE. State Running|4|9
+2015-01-21 10:04:20.647|MSG05|Process VHT_OperationModeService.exe (PID 7912) RUNNING on JUBILEE|4|9
+2015-01-21 10:04:20.648|MSG05|Service VHT_OperationModeServer RUNNING on JUBILEE. State Running|4|9
+2015-01-21 10:04:20.866|MSG05|Process VHT_Message_Bus.exe (PID 6540) RUNNING on JUBILEE|4|9
+2015-01-21 10:04:20.867|MSG05|Service VHT_Message_Bus RUNNING on JUBILEE. State Running|4|9
+2015-01-21 10:04:21.089|MSG05|Process VHT_QueueManager_Service.exe (PID 9828) RUNNING on JUBILEE|4|9
+2015-01-21 10:04:21.090|MSG05|Service VHT_QueueManager RUNNING on JUBILEE. State Running|4|9
+2015-01-21 10:04:21.307|MSG05|Process VHT_ReportWriter.exe (PID 9568) RUNNING on JUBILEE|4|9
+2015-01-21 10:04:21.308|MSG05|Service VHT_ReportWriter RUNNING on JUBILEE. State Running|4|9
+2015-01-21 10:05:08.301|MSG05|ComputerMonitorThread polling for JUBILEE|3|8
+2015-01-21 10:05:21.314|MSG05|ProgramMonitorThread polling programs running on JUBILEE|4|9
+2015-01-21 10:05:21.533|MSG05|Process VHT_QWatch_Client_Service.exe (PID 8560) RUNNING on JUBILEE|4|9
+2015-01-21 10:05:21.534|MSG05|Service VHT_QWatch_Client RUNNING on JUBILEE. State Running|4|9
+2015-01-21 10:05:21.751|MSG05|Process VHT_GlobalCall_IVR_Service.exe (PID 8052) RUNNING on JUBILEE|4|9
+2015-01-21 10:05:21.752|MSG05|Service VHT_GlobalCall_IVR RUNNING on JUBILEE. State Running|4|9
+2015-01-21 10:05:21.973|MSG05|Process VHT_Provider_Service.exe (PID 11236) RUNNING on JUBILEE|4|9
+2015-01-21 10:05:21.975|MSG05|Service VHT_Provider RUNNING on JUBILEE. State Running|4|9
+2015-01-21 10:05:22.193|MSG05|Process VHT_OperationModeService.exe (PID 7912) RUNNING on JUBILEE|4|9
+2015-01-21 10:05:22.194|MSG05|Service VHT_OperationModeServer RUNNING on JUBILEE. State Running|4|9
+2015-01-21 10:05:22.415|MSG05|Process VHT_Message_Bus.exe (PID 6540) RUNNING on JUBILEE|4|9
+2015-01-21 10:05:22.416|MSG05|Service VHT_Message_Bus RUNNING on JUBILEE. State Running|4|9
+2015-01-21 10:05:22.636|MSG05|Process VHT_QueueManager_Service.exe (PID 9828) RUNNING on JUBILEE|4|9
+2015-01-21 10:05:22.637|MSG05|Service VHT_QueueManager RUNNING on JUBILEE. State Running|4|9
+2015-01-21 10:05:22.857|MSG05|Process VHT_ReportWriter.exe (PID 9568) RUNNING on JUBILEE|4|9
+2015-01-21 10:05:22.857|MSG05|Service VHT_ReportWriter RUNNING on JUBILEE. State Running|4|9
+2015-01-21 10:06:22.861|MSG05|ProgramMonitorThread polling programs running on JUBILEE|4|9
+2015-01-21 10:06:23.090|MSG05|Process VHT_QWatch_Client_Service.exe (PID 8560) RUNNING on JUBILEE|4|9
+2015-01-21 10:06:23.091|MSG05|Service VHT_QWatch_Client RUNNING on JUBILEE. State Running|4|9
+2015-01-21 10:06:23.312|MSG05|Process VHT_GlobalCall_IVR_Service.exe (PID 8052) RUNNING on JUBILEE|4|9
+2015-01-21 10:06:23.313|MSG05|Service VHT_GlobalCall_IVR RUNNING on JUBILEE. State Running|4|9
+2015-01-21 10:06:23.539|MSG05|Process VHT_Provider_Service.exe (PID 11236) RUNNING on JUBILEE|4|9
+2015-01-21 10:06:23.540|MSG05|Service VHT_Provider RUNNING on JUBILEE. State Running|4|9
+2015-01-21 10:06:23.762|MSG05|Process VHT_OperationModeService.exe (PID 7912) RUNNING on JUBILEE|4|9
+2015-01-21 10:06:23.763|MSG05|Service VHT_OperationModeServer RUNNING on JUBILEE. State Running|4|9
+2015-01-21 10:06:23.981|MSG05|Process VHT_Message_Bus.exe (PID 6540) RUNNING on JUBILEE|4|9
+2015-01-21 10:06:23.981|MSG05|Service VHT_Message_Bus RUNNING on JUBILEE. State Running|4|9
+2015-01-21 10:06:24.202|MSG05|Process VHT_QueueManager_Service.exe (PID 9828) RUNNING on JUBILEE|4|9
+2015-01-21 10:06:24.203|MSG05|Service VHT_QueueManager RUNNING on JUBILEE. State Running|4|9
+2015-01-21 10:06:24.428|MSG05|Process VHT_ReportWriter.exe (PID 9568) RUNNING on JUBILEE|4|9
+2015-01-21 10:06:24.429|MSG05|Service VHT_ReportWriter RUNNING on JUBILEE. State Running|4|9
+2015-01-21 10:07:24.432|MSG05|ProgramMonitorThread polling programs running on JUBILEE|4|9
+2015-01-21 10:07:24.660|MSG05|Process VHT_QWatch_Client_Service.exe (PID 8560) RUNNING on JUBILEE|4|9
+2015-01-21 10:07:24.661|MSG05|Service VHT_QWatch_Client RUNNING on JUBILEE. State Running|4|9
+2015-01-21 10:07:24.884|MSG05|Process VHT_GlobalCall_IVR_Service.exe (PID 8052) RUNNING on JUBILEE|4|9
+2015-01-21 10:07:24.885|MSG05|Service VHT_GlobalCall_IVR RUNNING on JUBILEE. State Running|4|9
+2015-01-21 10:07:25.106|MSG05|Process VHT_Provider_Service.exe (PID 11236) RUNNING on JUBILEE|4|9
+2015-01-21 10:07:25.107|MSG05|Service VHT_Provider RUNNING on JUBILEE. State Running|4|9
+2015-01-21 10:07:25.333|MSG05|Process VHT_OperationModeService.exe (PID 7912) RUNNING on JUBILEE|4|9
+2015-01-21 10:07:25.334|MSG05|Service VHT_OperationModeServer RUNNING on JUBILEE. State Running|4|9
+2015-01-21 10:07:25.556|MSG05|Process VHT_Message_Bus.exe (PID 6540) RUNNING on JUBILEE|4|9
+2015-01-21 10:07:25.556|MSG05|Service VHT_Message_Bus RUNNING on JUBILEE. State Running|4|9
+2015-01-21 10:07:25.778|MSG05|Process VHT_QueueManager_Service.exe (PID 9828) RUNNING on JUBILEE|4|9
+2015-01-21 10:07:25.778|MSG05|Service VHT_QueueManager RUNNING on JUBILEE. State Running|4|9
+2015-01-21 10:07:26.001|MSG05|Process VHT_ReportWriter.exe (PID 9568) RUNNING on JUBILEE|4|9
+2015-01-21 10:07:26.002|MSG05|Service VHT_ReportWriter RUNNING on JUBILEE. State Running|4|9
+2015-01-21 10:08:26.005|MSG05|ProgramMonitorThread polling programs running on JUBILEE|4|9
+2015-01-21 10:08:26.225|MSG05|Process VHT_QWatch_Client_Service.exe (PID 8560) RUNNING on JUBILEE|4|9
+2015-01-21 10:08:26.225|MSG05|Service VHT_QWatch_Client RUNNING on JUBILEE. State Running|4|9
+2015-01-21 10:08:26.439|MSG05|Process VHT_GlobalCall_IVR_Service.exe (PID 8052) RUNNING on JUBILEE|4|9
+2015-01-21 10:08:26.440|MSG05|Service VHT_GlobalCall_IVR RUNNING on JUBILEE. State Running|4|9
+2015-01-21 10:08:26.658|MSG05|Process VHT_Provider_Service.exe (PID 11236) RUNNING on JUBILEE|4|9
+2015-01-21 10:08:26.659|MSG05|Service VHT_Provider RUNNING on JUBILEE. State Running|4|9
+2015-01-21 10:08:26.880|MSG05|Process VHT_OperationModeService.exe (PID 7912) RUNNING on JUBILEE|4|9
+2015-01-21 10:08:26.881|MSG05|Service VHT_OperationModeServer RUNNING on JUBILEE. State Running|4|9
+2015-01-21 10:08:27.102|MSG05|Process VHT_Message_Bus.exe (PID 6540) RUNNING on JUBILEE|4|9
+2015-01-21 10:08:27.103|MSG05|Service VHT_Message_Bus RUNNING on JUBILEE. State Running|4|9
+2015-01-21 10:08:27.325|MSG05|Process VHT_QueueManager_Service.exe (PID 9828) RUNNING on JUBILEE|4|9
+2015-01-21 10:08:27.326|MSG05|Service VHT_QueueManager RUNNING on JUBILEE. State Running|4|9
+2015-01-21 10:08:27.546|MSG05|Process VHT_ReportWriter.exe (PID 9568) RUNNING on JUBILEE|4|9
+2015-01-21 10:08:27.547|MSG05|Service VHT_ReportWriter RUNNING on JUBILEE. State Running|4|9
