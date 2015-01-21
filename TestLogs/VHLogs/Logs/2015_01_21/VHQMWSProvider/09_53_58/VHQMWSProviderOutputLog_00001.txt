@@ -1,0 +1,113 @@
+2015-01-21 09:53:58.471|*** Server JUBILEE
+			Log File C:\Program Files (x86)\Virtual Hold Technology\VHLogs\Logs\2015_01_21\VHQMWSProvider\09_53_58\VHQMWSProviderOutputLog_00001.txt
+			VHT_Provider_DLL (Version 7, 6, 10, 2943)
+			Current Log Level 5 (Software\Virtual Hold\VHQMWSProviderLogLevel)|1058
+2015-01-21 09:53:58.472|INFO|Utilities::SetTimerResolution|Timer resolution set to 1 MS| |1058
+2015-01-21 09:53:58.475|INFO|VHT_Provider_DLL::ServiceFunctions::InitializeThreadFunc| START|1f38
+2015-01-21 09:53:58.502|INFO|CInterfaceManagerClient::InitializeQMCL| Registry path: Software\Virtual Hold\QMCL Settings\VHQMWSProvider|1f38
+2015-01-21 09:53:58.502|INFO|CInterfaceManagerClient::InitializeTransportLayer| Registry path: Software\Virtual Hold\QMCL Settings\VHQMWSProvider|1f38
+2015-01-21 09:53:58.503|INFO|CInterfaceManagerClient::InitializeTransportLayer| Heartbeat Period: -1, Heartbeat Timeout: -1 (-1 means no heartbeat)|1f38
+2015-01-21 09:53:58.512|INFO|Utilities::ReadRegistry| Key\Value [Software\Virtual Hold\QMCL Settings\VHQMWSProvider\MinThreadPoolSize] = [1]|1f38
+2015-01-21 09:53:58.512|INFO|Utilities::ReadRegistry| Key\Value [Software\Virtual Hold\QMCL Settings\VHQMWSProvider\MaxThreadPoolSize] = [10]|1f38
+2015-01-21 09:53:58.512|INFO|CIM_QMCL_Translator::ThreadPoolEnabled| Thread pool ENABLED. Thread pool sizes: Min 3 / Max 10|1f38
+2015-01-21 09:53:58.512|INFO|SmartQueue<struct _TMessageData,3000>::SmartQueue: QueueOfMessages|1f38
+2015-01-21 09:53:58.512|INFO|Utilities::StartThread| CIM_QMCL_Translator::ThreadPoolFunc Thread created (1708)|1f38
+2015-01-21 09:53:58.512|INFO|CIM_QMCL_Translator::ThreadPoolFunc|START| Thread data (03618C78x)|1708
+2015-01-21 09:53:58.513|INFO|CIM_QMCL_Translator::CreateSingleThreadPoolThread| Thread pool thread id 1708 created. Threads: Waiting 1/ Current 1/ Min 3/ Max 10|1f38
+2015-01-21 09:53:58.513|INFO|Utilities::StartThread| CIM_QMCL_Translator::ThreadPoolFunc Thread created (f60)|1f38
+2015-01-21 09:53:58.513|INFO|CIM_QMCL_Translator::ThreadPoolFunc|START| Thread data (03BEB4B8x)|f60
+2015-01-21 09:53:58.514|INFO|CIM_QMCL_Translator::CreateSingleThreadPoolThread| Thread pool thread id f60 created. Threads: Waiting 2/ Current 2/ Min 3/ Max 10|1f38
+2015-01-21 09:53:58.514|INFO|Utilities::StartThread| CIM_QMCL_Translator::ThreadPoolFunc Thread created (12d4)|1f38
+2015-01-21 09:53:58.514|INFO|CIM_QMCL_Translator::ThreadPoolFunc|START| Thread data (03629F98x)|12d4
+2015-01-21 09:53:58.515|INFO|CIM_QMCL_Translator::CreateSingleThreadPoolThread| Thread pool thread id 12d4 created. Threads: Waiting 3/ Current 3/ Min 3/ Max 10|1f38
+2015-01-21 09:53:58.515|INFO|CIM_QMCL_Translator::CreateThreadPoolThreads| Successfully created needed thread pool threads. Threads: Current 3/ Min 3/ Max 10|1f38
+2015-01-21 09:53:58.515|INFO|CIM_QMCL_Translator::InitializeThreadPool| *** THREAD POOLING ENABLED ***. Created message queue and threads|1f38
+2015-01-21 09:53:59.511|ERROR|CSocketManager::OpenClient| Unable to connect to Server IP 10.30.0.110 Port 9999| From Client IP 10.30.0.110 Port 0| No connection could be made because the target machine actively refused it.(10061)|1f38
+2015-01-21 09:53:59.511|WARNING|CInterfaceManagerClient::InitializeQMCL|Unable to connect to Queue Manager. Will retry connect every 10 seconds untill connected...|1f38
+2015-01-21 09:54:09.512|INFO|CInterfaceManagerClient::InitializeTransportLayer| Registry path: Software\Virtual Hold\QMCL Settings\VHQMWSProvider|1f38
+2015-01-21 09:54:09.512|INFO|CInterfaceManagerClient::InitializeTransportLayer| Heartbeat Period: -1, Heartbeat Timeout: -1 (-1 means no heartbeat)|1f38
+2015-01-21 09:54:09.512|INFO|CIM_QMCL_Translator::DeInitializeThreadPool| *** THREAD POOL SHUTDOWN *** | Current Thread count 3|1f38
+2015-01-21 09:54:09.512|INFO|CIM_QMCL_Translator::ShutdownMessageQueue| Shutting down message queue, Current Thread count 3|1f38
+2015-01-21 09:54:09.512|INFO|CIM_QMCL_Translator::ThreadPoolFunc|Thread SHUTDOWN| Thread data (03629F98x)|12d4
+2015-01-21 09:54:09.512|INFO|CIM_QMCL_Translator::ThreadPoolFunc|Thread SHUTDOWN| Thread data (03BEB4B8x)|f60
+2015-01-21 09:54:09.512|INFO|CIM_QMCL_Translator::ThreadPoolFunc|Thread SHUTDOWN| Thread data (03618C78x)|1708
+2015-01-21 09:54:09.512|INFO|CIM_QMCL_Translator::ThreadPoolFunc|END| Thread data (03629F98x)|12d4
+2015-01-21 09:54:09.512|INFO|CIM_QMCL_Translator::ThreadPoolFunc|END| Thread data (03BEB4B8x)|f60
+2015-01-21 09:54:09.512|INFO|CIM_QMCL_Translator::ThreadPoolFunc|END| Thread data (03618C78x)|1708
+2015-01-21 09:54:09.513|INFO|SmartQueue<struct _TMessageData,3000>::Shutdown: QueueOfMessages shutdown successful after waiting 1 MS|1f38
+2015-01-21 09:54:09.513|INFO|SmartQueue<struct _TMessageData,3000>::Shutdown: QueueOfMessages shutdown successful after waiting 0 MS|1f38
+2015-01-21 09:54:09.513|INFO|CIM_QMCL_Translator::ShutdownMessageQueue| Message queue shutdown. Thread count 0|1f38
+2015-01-21 09:54:09.622|INFO|Utilities::ReadRegistry| Key\Value [Software\Virtual Hold\QMCL Settings\VHQMWSProvider\MinThreadPoolSize] = [1]|1f38
+2015-01-21 09:54:09.622|INFO|Utilities::ReadRegistry| Key\Value [Software\Virtual Hold\QMCL Settings\VHQMWSProvider\MaxThreadPoolSize] = [10]|1f38
+2015-01-21 09:54:09.622|INFO|CIM_QMCL_Translator::ThreadPoolEnabled| Thread pool ENABLED. Thread pool sizes: Min 3 / Max 10|1f38
+2015-01-21 09:54:09.622|INFO|SmartQueue<struct _TMessageData,3000>::SmartQueue: QueueOfMessages|1f38
+2015-01-21 09:54:09.622|INFO|Utilities::StartThread| CIM_QMCL_Translator::ThreadPoolFunc Thread created (139c)|1f38
+2015-01-21 09:54:09.622|INFO|CIM_QMCL_Translator::ThreadPoolFunc|START| Thread data (03618C78x)|139c
+2015-01-21 09:54:09.623|INFO|CIM_QMCL_Translator::CreateSingleThreadPoolThread| Thread pool thread id 139c created. Threads: Waiting 1/ Current 1/ Min 3/ Max 10|1f38
+2015-01-21 09:54:09.623|INFO|Utilities::StartThread| CIM_QMCL_Translator::ThreadPoolFunc Thread created (22e8)|1f38
+2015-01-21 09:54:09.623|INFO|CIM_QMCL_Translator::ThreadPoolFunc|START| Thread data (03BEB4B8x)|22e8
+2015-01-21 09:54:09.624|INFO|CIM_QMCL_Translator::CreateSingleThreadPoolThread| Thread pool thread id 22e8 created. Threads: Waiting 2/ Current 2/ Min 3/ Max 10|1f38
+2015-01-21 09:54:09.624|INFO|Utilities::StartThread| CIM_QMCL_Translator::ThreadPoolFunc Thread created (1e0)|1f38
+2015-01-21 09:54:09.624|INFO|CIM_QMCL_Translator::ThreadPoolFunc|START| Thread data (03BED0C8x)|1e0
+2015-01-21 09:54:09.625|INFO|CIM_QMCL_Translator::CreateSingleThreadPoolThread| Thread pool thread id 1e0 created. Threads: Waiting 3/ Current 3/ Min 3/ Max 10|1f38
+2015-01-21 09:54:09.625|INFO|CIM_QMCL_Translator::CreateThreadPoolThreads| Successfully created needed thread pool threads. Threads: Current 3/ Min 3/ Max 10|1f38
+2015-01-21 09:54:09.625|INFO|CIM_QMCL_Translator::InitializeThreadPool| *** THREAD POOLING ENABLED ***. Created message queue and threads|1f38
+2015-01-21 09:54:10.616|ERROR|CSocketManager::OpenClient| Unable to connect to Server IP 10.30.0.110 Port 9999| From Client IP 10.30.0.110 Port 0| No connection could be made because the target machine actively refused it.(10061)|1f38
+2015-01-21 09:54:20.617|INFO|CInterfaceManagerClient::InitializeTransportLayer| Registry path: Software\Virtual Hold\QMCL Settings\VHQMWSProvider|1f38
+2015-01-21 09:54:20.617|INFO|CInterfaceManagerClient::InitializeTransportLayer| Heartbeat Period: -1, Heartbeat Timeout: -1 (-1 means no heartbeat)|1f38
+2015-01-21 09:54:20.617|INFO|CIM_QMCL_Translator::DeInitializeThreadPool| *** THREAD POOL SHUTDOWN *** | Current Thread count 3|1f38
+2015-01-21 09:54:20.617|INFO|CIM_QMCL_Translator::ShutdownMessageQueue| Shutting down message queue, Current Thread count 3|1f38
+2015-01-21 09:54:20.617|INFO|CIM_QMCL_Translator::ThreadPoolFunc|Thread SHUTDOWN| Thread data (03BED0C8x)|1e0
+2015-01-21 09:54:20.617|INFO|CIM_QMCL_Translator::ThreadPoolFunc|END| Thread data (03BED0C8x)|1e0
+2015-01-21 09:54:20.617|INFO|CIM_QMCL_Translator::ThreadPoolFunc|Thread SHUTDOWN| Thread data (03618C78x)|139c
+2015-01-21 09:54:20.617|INFO|CIM_QMCL_Translator::ThreadPoolFunc|Thread SHUTDOWN| Thread data (03BEB4B8x)|22e8
+2015-01-21 09:54:20.617|INFO|CIM_QMCL_Translator::ThreadPoolFunc|END| Thread data (03618C78x)|139c
+2015-01-21 09:54:20.617|INFO|CIM_QMCL_Translator::ThreadPoolFunc|END| Thread data (03BEB4B8x)|22e8
+2015-01-21 09:54:20.618|INFO|SmartQueue<struct _TMessageData,3000>::Shutdown: QueueOfMessages shutdown successful after waiting 1 MS|1f38
+2015-01-21 09:54:20.618|INFO|SmartQueue<struct _TMessageData,3000>::Shutdown: QueueOfMessages shutdown successful after waiting 0 MS|1f38
+2015-01-21 09:54:20.618|INFO|CIM_QMCL_Translator::ShutdownMessageQueue| Message queue shutdown. Thread count 0|1f38
+2015-01-21 09:54:20.727|INFO|Utilities::ReadRegistry| Key\Value [Software\Virtual Hold\QMCL Settings\VHQMWSProvider\MinThreadPoolSize] = [1]|1f38
+2015-01-21 09:54:20.727|INFO|Utilities::ReadRegistry| Key\Value [Software\Virtual Hold\QMCL Settings\VHQMWSProvider\MaxThreadPoolSize] = [10]|1f38
+2015-01-21 09:54:20.727|INFO|CIM_QMCL_Translator::ThreadPoolEnabled| Thread pool ENABLED. Thread pool sizes: Min 3 / Max 10|1f38
+2015-01-21 09:54:20.727|INFO|SmartQueue<struct _TMessageData,3000>::SmartQueue: QueueOfMessages|1f38
+2015-01-21 09:54:20.727|INFO|Utilities::StartThread| CIM_QMCL_Translator::ThreadPoolFunc Thread created (18d8)|1f38
+2015-01-21 09:54:20.727|INFO|CIM_QMCL_Translator::ThreadPoolFunc|START| Thread data (03618C78x)|18d8
+2015-01-21 09:54:20.728|INFO|CIM_QMCL_Translator::CreateSingleThreadPoolThread| Thread pool thread id 18d8 created. Threads: Waiting 1/ Current 1/ Min 3/ Max 10|1f38
+2015-01-21 09:54:20.728|INFO|Utilities::StartThread| CIM_QMCL_Translator::ThreadPoolFunc Thread created (9c4)|1f38
+2015-01-21 09:54:20.728|INFO|CIM_QMCL_Translator::ThreadPoolFunc|START| Thread data (03BEB4B8x)|9c4
+2015-01-21 09:54:20.729|INFO|CIM_QMCL_Translator::CreateSingleThreadPoolThread| Thread pool thread id 9c4 created. Threads: Waiting 2/ Current 2/ Min 3/ Max 10|1f38
+2015-01-21 09:54:20.729|INFO|Utilities::StartThread| CIM_QMCL_Translator::ThreadPoolFunc Thread created (1cc8)|1f38
+2015-01-21 09:54:20.729|INFO|CIM_QMCL_Translator::ThreadPoolFunc|START| Thread data (03BED0C8x)|1cc8
+2015-01-21 09:54:20.730|INFO|CIM_QMCL_Translator::CreateSingleThreadPoolThread| Thread pool thread id 1cc8 created. Threads: Waiting 3/ Current 3/ Min 3/ Max 10|1f38
+2015-01-21 09:54:20.730|INFO|CIM_QMCL_Translator::CreateThreadPoolThreads| Successfully created needed thread pool threads. Threads: Current 3/ Min 3/ Max 10|1f38
+2015-01-21 09:54:20.730|INFO|CIM_QMCL_Translator::InitializeThreadPool| *** THREAD POOLING ENABLED ***. Created message queue and threads|1f38
+2015-01-21 09:54:20.730|CSocketManager::AddDataSocket|Protocol = |1f38
+2015-01-21 09:54:20.730|INFO|SmartQueue<class CDataBuffer,3000>::SmartQueue: QueueOfReceiveBuffers|1f38
+2015-01-21 09:54:20.730|CDataSocket::CDataSocket|Creating FileLog|1f38
+2015-01-21 09:54:20.731|0001|AddDataSocket|Heartbeat period -1|Heartbeat timeout -1|Max Heartbeat failures 1|1f38
+2015-01-21 09:54:20.731|INFO|Utilities::StartThread| ReceiveThread Thread created (13b4)|1f38
+2015-01-21 09:54:20.731|INFO|Utilities::StartThread| ProcessThread Thread created (238c)|1f38
+2015-01-21 09:54:20.731|0001|CDataSocket::StartThreads| Heartbeats DISABLED| Period -1| Timeout -1|1f38
+2015-01-21 09:54:20.731|0001|CDataSocket::ReceiveThread| WAIT FOR STARTUP|13b4
+2015-01-21 09:54:20.731|0001|DataSocketInitialized|238c
+2015-01-21 09:54:20.731|0001|CDataSocket::ProcessThread| WAIT FOR STARTUP|238c
+2015-01-21 09:54:20.731|INFO|Utilities::StartThread| DisconnectThread Thread created (28a0)|1f38
+2015-01-21 09:54:20.731|0001|CDataSocket::ProcessThread| STARTUP|238c
+2015-01-21 09:54:20.731|0001|CDataSocket::ProcessThread|START|238c
+2015-01-21 09:54:20.731|0001|CDataSocket::ReceiveThread| STARTUP|13b4
+2015-01-21 09:54:20.731|0001|CDataSocket::ReceiveThread|START|13b4
+2015-01-21 09:54:20.731|0001|CDataSocket::DisconnectThreadFunc| WAIT FOR STARTUP|28a0
+2015-01-21 09:54:20.731|0001|CDataSocket::DisconnectThreadFunc| STARTUP|28a0
+2015-01-21 09:54:20.731|0001|CDataSocket::DisconnectThreadFunc|START|Waiting for receive and process threads to exit.|28a0
+2015-01-21 09:54:20.731|INFO|Utilities::StartThread| ConnectThread Thread created (23c8)|1f38
+2015-01-21 09:54:20.731|INFO|0001|CSocketManager::OpenClient|Connected to Server IP 10.30.0.110 Port 9999| From Client IP 10.30.0.110 Port 0|1f38
+2015-01-21 09:54:20.731|INFO|CInterfaceManagerClient::InitializeQMCL|Connected to Queue Manager|1f38
+2015-01-21 09:54:20.731|INFO|VHT_Provider_DLL::ServiceFunctions::InitializeThreadFunc| END|1f38
+2015-01-21 09:54:22.734|Info|CVHQMWS_IMC_QMInterface::DataSocketConnected|UnRegisterInterface|23c8
+2015-01-21 09:54:22.735|CVHQMWS_IMC_QMInterface::UnRegisterClientVHQMWSInterface| UnRegister, ServerName=JUBILEE_VHQMWSPROVIDER|ConnectionId=1|23c8
+2015-01-21 09:54:22.735|CInterfaceManagerClient|UnRegisterClientVHQMWSProviderInterface|UnRegister, ServerName=JUBILEE_VHQMWSPROVIDER|23c8
+2015-01-21 09:54:22.735|CIM_QMCL_Translator::UnRegisterClientVHQMWSProviderInterface|23c8
+2015-01-21 09:54:24.736|Info|CVHQMWS_IMC_QMInterface::DataSocketConnected|RegisterInterface|23c8
+2015-01-21 09:54:24.737|CVHQMWS_IMC_QMInterface::RegisterClientVHQMWSInterface| Register, ServerName=JUBILEE_VHQMWSPROVIDER|ConnectionId=1|23c8
+2015-01-21 09:54:37.171|Info|CVHQMWS_IMC_QMInterface::InitializeVHQMWS|data loaded|SiteName: VHT JUBILEE|23c8
+2015-01-21 09:54:37.171|CTransportSocketManager|DataSocketConnected|0001|23c8

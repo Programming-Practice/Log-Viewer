@@ -1,0 +1,57 @@
+2015-01-21 09:54:58.696|*** Server JUBILEE
+			Log File C:\Program Files (x86)\Virtual Hold Technology\VHLogs\Logs\2015_01_21\VHT_QWatch_Client\09_54_58\VHT_QWatch_ClientOutputLog_00001.txt
+			VHT_QWatch_Client_DLL2 (Version 7, 6, 10, 2943)
+			Current Log Level 5 (Software\Virtual Hold\QWatch_ClientLogLevel)|105c
+2015-01-21 09:54:58.697|INFO|Utilities::SetTimerResolution|Timer resolution set to 1 MS| |105c
+2015-01-21 09:54:58.699|INFO|VHT_QWatch_Client_DLL::ServiceFunctions::InitializeThreadFunc| START|2a4c
+2015-01-21 09:54:58.746|WARNING|Utilities::ReadRegistry| Key\Value [\MinThreadPoolSize] = [1]| DEFAULTED, missing, empty or not a REG_SZ type|2a4c
+2015-01-21 09:54:58.746|WARNING|Utilities::ReadRegistry| Key\Value [\MaxThreadPoolSize] = [10]| DEFAULTED, missing, empty or not a REG_SZ type|2a4c
+2015-01-21 09:54:58.746|INFO|CIM_QMCL_Translator::ThreadPoolEnabled| Thread pool ENABLED. Thread pool sizes: Min 3 / Max 10|2a4c
+2015-01-21 09:54:58.746|INFO|SmartQueue<struct _TMessageData,3000>::SmartQueue: QueueOfMessages|2a4c
+2015-01-21 09:54:58.746|INFO|Utilities::StartThread| CIM_QMCL_Translator::ThreadPoolFunc Thread created (2ad8)|2a4c
+2015-01-21 09:54:58.746|INFO|CIM_QMCL_Translator::ThreadPoolFunc|START| Thread data (045B8C78x)|2ad8
+2015-01-21 09:54:58.747|INFO|CIM_QMCL_Translator::CreateSingleThreadPoolThread| Thread pool thread id 2ad8 created. Threads: Waiting 1/ Current 1/ Min 3/ Max 10|2a4c
+2015-01-21 09:54:58.747|INFO|Utilities::StartThread| CIM_QMCL_Translator::ThreadPoolFunc Thread created (2aa8)|2a4c
+2015-01-21 09:54:58.747|INFO|CIM_QMCL_Translator::ThreadPoolFunc|START| Thread data (045B86A0x)|2aa8
+2015-01-21 09:54:58.748|INFO|CIM_QMCL_Translator::CreateSingleThreadPoolThread| Thread pool thread id 2aa8 created. Threads: Waiting 2/ Current 2/ Min 3/ Max 10|2a4c
+2015-01-21 09:54:58.748|INFO|Utilities::StartThread| CIM_QMCL_Translator::ThreadPoolFunc Thread created (26e8)|2a4c
+2015-01-21 09:54:58.748|INFO|CIM_QMCL_Translator::ThreadPoolFunc|START| Thread data (0156C1E0x)|26e8
+2015-01-21 09:54:58.749|INFO|CIM_QMCL_Translator::CreateSingleThreadPoolThread| Thread pool thread id 26e8 created. Threads: Waiting 3/ Current 3/ Min 3/ Max 10|2a4c
+2015-01-21 09:54:58.749|INFO|CIM_QMCL_Translator::CreateThreadPoolThreads| Successfully created needed thread pool threads. Threads: Current 3/ Min 3/ Max 10|2a4c
+2015-01-21 09:54:58.749|INFO|CIM_QMCL_Translator::InitializeThreadPool| *** THREAD POOLING ENABLED ***. Created message queue and threads|2a4c
+2015-01-21 09:54:58.750|INFO|VHT_QWatch_Client_DLL::ServiceFunctions::InitializeThreadFunc| END|2a4c
+2015-01-21 09:54:58.752|CQWatch_IMC_QMInterface::WriteQueueStatsThread|Thread Begin|d70
+2015-01-21 09:54:58.757|Creating VHT_Transport Client|2960
+2015-01-21 09:54:58.757|CQWatch_IMC_QMInterface::InitializeQMCLMultipleServersThread|Server=1|Directory=Software\Virtual Hold\QMCL Settings\QWatchService\OtherServer01|2960
+2015-01-21 09:54:58.758|CQWatch_IMC_QMInterface::InitializeQMCLMultipleServersThread|Calling OpenRedundantClient with parameters|ClientIP=10.30.0.110|ClientPort=0|ServerIP=10.30.0.110|ServerPort=9999|2960
+2015-01-21 09:54:58.758|INFO|CQWatch_IMC_QMInterface::InitializeQMCLMultipleServersThread| Heartbeat Period: -1, Heartbeat Timeout: -1 (-1 means no heartbeat)|2960
+2015-01-21 09:54:58.759|CSocketManager::AddDataSocket|Protocol = |2960
+2015-01-21 09:54:58.759|INFO|SmartQueue<class CDataBuffer,3000>::SmartQueue: QueueOfReceiveBuffers|2960
+2015-01-21 09:54:58.759|CDataSocket::CDataSocket|Creating FileLog|2960
+2015-01-21 09:54:58.759|0001|AddDataSocket|Heartbeat period -1|Heartbeat timeout -1|Max Heartbeat failures 1|2960
+2015-01-21 09:54:58.760|INFO|Utilities::StartThread| ReceiveThread Thread created (220c)|2960
+2015-01-21 09:54:58.760|INFO|Utilities::StartThread| ProcessThread Thread created (2af0)|2960
+2015-01-21 09:54:58.760|0001|CDataSocket::StartThreads| Heartbeats DISABLED| Period -1| Timeout -1|2960
+2015-01-21 09:54:58.760|INFO|Utilities::StartThread| DisconnectThread Thread created (2128)|2960
+2015-01-21 09:54:58.760|0001|CDataSocket::ReceiveThread| WAIT FOR STARTUP|220c
+2015-01-21 09:54:58.760|0001|CDataSocket::ReceiveThread| STARTUP|220c
+2015-01-21 09:54:58.760|0001|CDataSocket::ReceiveThread|START|220c
+2015-01-21 09:54:58.760|0001|DataSocketInitialized|2af0
+2015-01-21 09:54:58.760|0001|CDataSocket::ProcessThread| WAIT FOR STARTUP|2af0
+2015-01-21 09:54:58.760|0001|CDataSocket::ProcessThread| STARTUP|2af0
+2015-01-21 09:54:58.760|0001|CDataSocket::ProcessThread|START|2af0
+2015-01-21 09:54:58.760|INFO|Utilities::StartThread| ConnectThread Thread created (1a78)|2960
+2015-01-21 09:54:58.760|INFO|0001|CSocketManager::OpenClient|Connected to Server IP 10.30.0.110 Port 9999| From Client IP 10.30.0.110 Port 0|2960
+2015-01-21 09:54:58.761|0001|CDataSocket::DisconnectThreadFunc| WAIT FOR STARTUP|2128
+2015-01-21 09:54:58.761|0001|CDataSocket::DisconnectThreadFunc| STARTUP|2128
+2015-01-21 09:54:58.761|0001|CDataSocket::DisconnectThreadFunc|START|Waiting for receive and process threads to exit.|2128
+2015-01-21 09:54:58.766|CQWatch_IMC_QMInterface::WriteCallbackForecastThread|Thread Begin|21fc
+2015-01-21 09:54:58.766|CQWatch_IMC_QMInterface::WriteLineSnapShotThread|Thread Begin|1398
+2015-01-21 09:54:58.809|CQWatch_IMC_QMInterface::WriteQueueSnapShotThread|Thread Begin|227c
+2015-01-21 09:55:00.762|CQWatch_IMC_QMInterface::DataSocketConnected|UnRegisterInterface|1a78
+2015-01-21 09:55:00.762|CQWatch_IMC_QMInterface::UnRegisterClientQWatchInterface|ServerName=JUBILEE|ConnectionId=1|1a78
+2015-01-21 09:55:00.764|CQWatch_QMCL_Translator::UnRegisterClientQWatchInterface|Unregistering with server, Sending RPCRequest|1a78
+2015-01-21 09:55:02.769|CQWatch_IMC_QMInterface::DataSocketConnected|RegisterInterface|1a78
+2015-01-21 09:55:02.770|CQWatch_IMC_QMInterface::RegisterClientQWatchInterface|ServerName=JUBILEE|ConnectionId=1|1a78
+2015-01-21 09:55:02.771|CQWatch_QMCL_Translator::RegisterClientQWatchInterface|Registering with server, Sending RPCRequest|1a78
+2015-01-21 09:55:02.771|CTransportSocketManager|DataSocketConnected|0001|1a78
