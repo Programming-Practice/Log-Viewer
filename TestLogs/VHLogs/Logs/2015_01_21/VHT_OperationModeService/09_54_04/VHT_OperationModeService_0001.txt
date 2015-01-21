@@ -1,0 +1,994 @@
+2015-01-21 09:54:04.052|MSG04|Server socket opened at 10.30.0.110:9100|OperationModeServiceRunner|5
+2015-01-21 09:54:04.062|MSG03|FindQueues for site VHT JUBILEE|OperationModeServiceRunner|5
+2015-01-21 09:54:07.985|MSG04|Initial Operation Mode for VHT JUBILEE-VHT_BUILD_PROCESS set to '9'.|OperationModeServiceRunner|5
+2015-01-21 09:54:07.986|MSG04|Locked Operation Mode for VHT JUBILEE-VHT_BUILD_PROCESS is 'FALSE'|OperationModeServiceRunner|5
+2015-01-21 09:54:07.986|MSG04|Operation Mode Initialization Method for VHT JUBILEE-VHT_BUILD_PROCESS is ''|OperationModeServiceRunner|5
+2015-01-21 09:54:07.991|MSG04|Initial Operation Mode for VHT JUBILEE-VHT_BUILD_PROCESS_02 set to '6'.|OperationModeServiceRunner|5
+2015-01-21 09:54:07.991|MSG04|Locked Operation Mode for VHT JUBILEE-VHT_BUILD_PROCESS_02 is 'FALSE'|OperationModeServiceRunner|5
+2015-01-21 09:54:07.991|MSG04|Operation Mode Initialization Method for VHT JUBILEE-VHT_BUILD_PROCESS_02 is ''|OperationModeServiceRunner|5
+2015-01-21 09:54:07.992|MSG03|Operation Mode Server started.|OperationModeServiceRunner|5
+2015-01-21 09:54:07.996|MSG03|Operation Mode Service started|OperationModeServiceRunner|5
+2015-01-21 09:54:08.997|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 09:54:10.008|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 09:54:11.016|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 09:54:12.025|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 09:54:13.033|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 09:54:14.041|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 09:54:15.048|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 09:54:16.063|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 09:54:17.070|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 09:54:18.077|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 09:54:19.085|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 09:54:20.093|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 09:54:21.100|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 09:54:22.109|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 09:54:23.116|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 09:54:24.127|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 09:54:25.135|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 09:54:26.143|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 09:54:27.150|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 09:54:28.157|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 09:54:29.165|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 09:54:30.173|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 09:54:31.183|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 09:54:32.191|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 09:54:33.199|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 09:54:34.207|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 09:54:35.214|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 09:54:36.223|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 09:54:37.230|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 09:54:38.028|MSG03|ProcessRPCRequest|VHQMWS interface registered|HLOC connnectionID = 0|3|10
+2015-01-21 09:54:38.030|MSG03|ProcessRPCRequest|Received GetOpModes request connnectionID = 0|3|10
+2015-01-21 09:54:38.032|MSG03|XML Elements SName: VHT JUBILEE, QId VHT_BUILD_PROCESS, DesTime: 2015-01-25, QueryDate; 2015-01-25|3|10
+2015-01-21 09:54:38.040|MSG03|ProcessRPCRequest|Received CheckHoliday request connnectionID = 0|3|10
+2015-01-21 09:54:38.041|MSG03|XML Elements SName: VHT JUBILEE, QId VHT_BUILD_PROCESS, DesTime: 2015-01-26, QueryDate; 2015-01-26|3|10
+2015-01-21 09:54:38.042|MSG03|ProcessRPCRequest|Received CheckHoliday request connnectionID = 0|3|10
+2015-01-21 09:54:38.043|MSG03|XML Elements SName: VHT JUBILEE, QId VHT_BUILD_PROCESS, DesTime: 2015-01-27, QueryDate; 2015-01-27|3|10
+2015-01-21 09:54:38.043|MSG03|ProcessRPCRequest|Received CheckHoliday request connnectionID = 0|3|10
+2015-01-21 09:54:38.044|MSG03|XML Elements SName: VHT JUBILEE, QId VHT_BUILD_PROCESS, DesTime: 2015-01-28, QueryDate; 2015-01-28|3|10
+2015-01-21 09:54:38.045|MSG03|ProcessRPCRequest|Received CheckHoliday request connnectionID = 0|3|10
+2015-01-21 09:54:38.046|MSG03|XML Elements SName: VHT JUBILEE, QId VHT_BUILD_PROCESS, DesTime: 2015-01-22, QueryDate; 2015-01-22|3|10
+2015-01-21 09:54:38.046|MSG03|ProcessRPCRequest|Received CheckHoliday request connnectionID = 0|3|10
+2015-01-21 09:54:38.048|MSG03|XML Elements SName: VHT JUBILEE, QId VHT_BUILD_PROCESS, DesTime: 2015-01-23, QueryDate; 2015-01-23|3|10
+2015-01-21 09:54:38.048|MSG03|ProcessRPCRequest|Received CheckHoliday request connnectionID = 0|3|10
+2015-01-21 09:54:38.049|MSG03|XML Elements SName: VHT JUBILEE, QId VHT_BUILD_PROCESS, DesTime: 2015-01-24, QueryDate; 2015-01-24|3|10
+2015-01-21 09:54:38.049|MSG03|ProcessRPCRequest|Received CheckHoliday request connnectionID = 0|3|10
+2015-01-21 09:54:38.050|MSG03|XML Elements SName: VHT JUBILEE, QId VHT_BUILD_PROCESS, DesTime: 2015-01-21, QueryDate; 2015-01-21|3|10
+2015-01-21 09:54:38.051|MSG03|ProcessRPCRequest|Received CheckHoliday request connnectionID = 0|3|10
+2015-01-21 09:54:38.052|MSG03|XML Elements SName: VHT JUBILEE, QId VHT_BUILD_PROCESS_02, DesTime: 2015-01-25, QueryDate; 2015-01-25|3|10
+2015-01-21 09:54:38.052|MSG03|ProcessRPCRequest|Received CheckHoliday request connnectionID = 0|3|10
+2015-01-21 09:54:38.053|MSG03|XML Elements SName: VHT JUBILEE, QId VHT_BUILD_PROCESS_02, DesTime: 2015-01-26, QueryDate; 2015-01-26|3|10
+2015-01-21 09:54:38.053|MSG03|ProcessRPCRequest|Received CheckHoliday request connnectionID = 0|3|10
+2015-01-21 09:54:38.054|MSG03|XML Elements SName: VHT JUBILEE, QId VHT_BUILD_PROCESS_02, DesTime: 2015-01-27, QueryDate; 2015-01-27|3|10
+2015-01-21 09:54:38.054|MSG03|ProcessRPCRequest|Received CheckHoliday request connnectionID = 0|3|10
+2015-01-21 09:54:38.055|MSG03|XML Elements SName: VHT JUBILEE, QId VHT_BUILD_PROCESS_02, DesTime: 2015-01-28, QueryDate; 2015-01-28|3|10
+2015-01-21 09:54:38.056|MSG03|ProcessRPCRequest|Received CheckHoliday request connnectionID = 0|3|10
+2015-01-21 09:54:38.056|MSG03|XML Elements SName: VHT JUBILEE, QId VHT_BUILD_PROCESS_02, DesTime: 2015-01-22, QueryDate; 2015-01-22|3|10
+2015-01-21 09:54:38.057|MSG03|ProcessRPCRequest|Received CheckHoliday request connnectionID = 0|3|10
+2015-01-21 09:54:38.057|MSG03|XML Elements SName: VHT JUBILEE, QId VHT_BUILD_PROCESS_02, DesTime: 2015-01-23, QueryDate; 2015-01-23|3|10
+2015-01-21 09:54:38.058|MSG03|ProcessRPCRequest|Received CheckHoliday request connnectionID = 0|3|10
+2015-01-21 09:54:38.059|MSG03|XML Elements SName: VHT JUBILEE, QId VHT_BUILD_PROCESS_02, DesTime: 2015-01-24, QueryDate; 2015-01-24|3|10
+2015-01-21 09:54:38.059|MSG03|ProcessRPCRequest|Received CheckHoliday request connnectionID = 0|3|10
+2015-01-21 09:54:38.060|MSG03|XML Elements SName: VHT JUBILEE, QId VHT_BUILD_PROCESS_02, DesTime: 2015-01-21, QueryDate; 2015-01-21|3|10
+2015-01-21 09:54:38.060|MSG03|ProcessRPCRequest|Received CheckHoliday request connnectionID = 0|3|10
+2015-01-21 09:54:38.237|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 09:54:39.246|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 09:54:40.253|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 09:54:41.260|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 09:54:42.268|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 09:54:43.276|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 09:54:44.288|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 09:54:45.296|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 09:54:46.304|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 09:54:47.311|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 09:54:48.318|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 09:54:49.326|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 09:54:50.333|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 09:54:51.340|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 09:54:52.352|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 09:54:53.359|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 09:54:54.366|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 09:54:55.374|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 09:54:56.381|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 09:54:57.389|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 09:54:58.397|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 09:54:59.404|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 09:55:00.416|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 09:55:01.424|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 09:55:02.432|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 09:55:03.439|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 09:55:04.447|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 09:55:05.456|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 09:55:06.464|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 09:55:07.473|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 09:55:08.035|MSG03|ProcessRPCRequest|Received GetOpModes request connnectionID = 0|3|10
+2015-01-21 09:55:08.485|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 09:55:09.492|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 09:55:10.500|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 09:55:11.507|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 09:55:12.516|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 09:55:13.523|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 09:55:14.530|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 09:55:15.541|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 09:55:16.549|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 09:55:17.557|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 09:55:18.564|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 09:55:19.572|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 09:55:20.579|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 09:55:21.586|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 09:55:22.594|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 09:55:23.605|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 09:55:24.612|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 09:55:25.619|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 09:55:26.627|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 09:55:27.635|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 09:55:28.642|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 09:55:29.650|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 09:55:29.653|MSG04|Operation Mode for VHT JUBILEE-VHT_BUILD_PROCESS changed to '1', due to manual intervention.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 09:55:30.658|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 09:55:31.671|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 09:55:32.678|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 09:55:33.685|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 09:55:34.694|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 09:55:35.704|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 09:55:36.711|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 09:55:37.719|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 09:55:38.038|MSG03|ProcessRPCRequest|Received GetOpModes request connnectionID = 0|3|10
+2015-01-21 09:55:38.730|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 09:55:39.739|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 09:55:40.746|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 09:55:40.752|MSG04|Operation Mode for VHT JUBILEE-VHT_BUILD_PROCESS_02 changed to '1', due to manual intervention.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 09:55:41.754|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 09:55:42.761|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 09:55:43.769|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 09:55:44.777|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 09:55:45.784|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 09:55:46.796|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 09:55:47.803|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 09:55:48.811|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 09:55:49.819|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 09:55:50.827|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 09:55:51.835|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 09:55:52.842|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 09:55:53.849|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 09:55:54.862|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 09:55:55.869|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 09:55:56.877|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 09:55:57.885|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 09:55:58.892|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 09:55:59.899|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 09:56:00.907|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 09:56:01.916|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 09:56:02.928|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 09:56:03.936|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 09:56:04.943|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 09:56:05.951|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 09:56:06.959|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 09:56:07.966|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 09:56:08.043|MSG03|ProcessRPCRequest|Received GetOpModes request connnectionID = 0|3|10
+2015-01-21 09:56:08.974|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 09:56:09.985|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 09:56:10.992|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 09:56:12.000|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 09:56:13.008|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 09:56:14.015|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 09:56:15.023|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 09:56:16.030|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 09:56:17.038|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 09:56:18.050|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 09:56:19.058|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 09:56:20.066|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 09:56:21.074|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 09:56:22.082|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 09:56:23.089|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 09:56:24.097|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 09:56:25.106|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 09:56:26.117|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 09:56:27.124|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 09:56:28.131|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 09:56:29.138|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 09:56:30.146|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 09:56:31.154|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 09:56:32.163|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 09:56:33.171|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 09:56:34.183|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 09:56:35.190|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 09:56:36.197|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 09:56:37.205|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 09:56:38.047|MSG03|ProcessRPCRequest|Received GetOpModes request connnectionID = 0|3|10
+2015-01-21 09:56:38.212|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 09:56:39.220|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 09:56:40.228|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 09:56:41.239|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 09:56:42.248|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 09:56:43.256|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 09:56:44.264|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 09:56:45.271|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 09:56:46.280|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 09:56:47.288|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 09:56:48.296|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 09:56:49.308|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 09:56:50.316|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 09:56:51.323|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 09:56:52.331|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 09:56:53.338|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 09:56:54.346|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 09:56:55.353|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 09:56:56.361|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 09:56:57.373|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 09:56:58.380|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 09:56:59.388|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 09:57:00.396|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 09:57:01.403|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 09:57:02.412|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 09:57:03.419|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 09:57:04.426|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 09:57:05.437|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 09:57:06.444|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 09:57:07.452|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 09:57:08.051|MSG03|ProcessRPCRequest|Received GetOpModes request connnectionID = 0|3|10
+2015-01-21 09:57:08.460|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 09:57:09.468|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 09:57:10.476|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 09:57:11.484|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 09:57:12.497|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 09:57:13.505|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 09:57:14.512|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 09:57:15.520|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 09:57:16.527|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 09:57:17.534|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 09:57:18.541|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 09:57:19.549|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 09:57:20.561|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 09:57:21.568|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 09:57:22.577|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 09:57:23.585|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 09:57:24.594|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 09:57:25.602|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 09:57:26.609|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 09:57:27.617|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 09:57:28.629|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 09:57:29.637|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 09:57:30.645|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 09:57:31.652|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 09:57:32.661|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 09:57:33.669|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 09:57:34.677|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 09:57:35.688|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 09:57:36.696|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 09:57:37.705|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 09:57:38.054|MSG03|ProcessRPCRequest|Received GetOpModes request connnectionID = 0|3|10
+2015-01-21 09:57:38.713|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 09:57:39.721|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 09:57:40.728|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 09:57:41.737|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 09:57:42.745|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 09:57:43.757|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 09:57:44.764|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 09:57:45.772|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 09:57:46.780|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 09:57:47.788|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 09:57:48.796|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 09:57:49.803|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 09:57:50.811|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 09:57:51.825|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 09:57:52.833|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 09:57:53.840|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 09:57:54.848|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 09:57:55.856|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 09:57:56.863|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 09:57:57.870|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 09:57:58.877|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 09:57:59.889|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 09:58:00.897|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 09:58:01.905|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 09:58:02.913|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 09:58:03.920|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 09:58:04.927|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 09:58:05.935|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 09:58:06.947|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 09:58:07.954|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 09:58:08.058|MSG03|ProcessRPCRequest|Received GetOpModes request connnectionID = 0|3|10
+2015-01-21 09:58:08.962|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 09:58:09.970|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 09:58:10.977|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 09:58:11.987|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 09:58:12.995|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 09:58:14.003|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 09:58:15.015|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 09:58:16.023|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 09:58:17.030|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 09:58:18.037|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 09:58:19.045|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 09:58:20.052|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 09:58:21.059|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 09:58:22.068|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 09:58:23.080|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 09:58:24.087|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 09:58:25.094|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 09:58:26.102|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 09:58:27.109|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 09:58:28.117|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 09:58:29.124|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 09:58:30.131|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 09:58:31.143|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 09:58:32.152|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 09:58:33.160|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 09:58:34.168|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 09:58:35.176|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 09:58:36.184|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 09:58:37.191|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 09:58:38.062|MSG03|ProcessRPCRequest|Received GetOpModes request connnectionID = 0|3|10
+2015-01-21 09:58:38.203|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 09:58:39.211|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 09:58:40.218|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 09:58:41.226|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 09:58:42.235|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 09:58:43.243|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 09:58:44.251|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 09:58:45.259|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 09:58:46.270|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 09:58:47.277|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 09:58:48.285|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 09:58:49.292|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 09:58:50.299|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 09:58:51.307|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 09:58:52.316|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 09:58:53.323|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 09:58:54.335|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 09:58:55.342|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 09:58:56.350|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 09:58:57.357|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 09:58:58.364|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 09:58:59.371|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 09:59:00.379|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 09:59:01.391|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 09:59:02.401|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 09:59:03.409|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 09:59:04.416|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 09:59:05.423|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 09:59:06.430|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 09:59:07.438|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 09:59:08.066|MSG03|ProcessRPCRequest|Received GetOpModes request connnectionID = 0|3|10
+2015-01-21 09:59:08.446|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 09:59:09.457|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 09:59:10.464|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 09:59:11.472|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 09:59:12.480|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 09:59:13.489|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 09:59:14.497|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 09:59:15.505|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 09:59:16.513|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 09:59:17.524|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 09:59:18.532|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 09:59:19.539|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 09:59:20.547|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 09:59:21.555|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 09:59:22.563|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 09:59:23.570|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 09:59:24.577|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 09:59:25.589|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 09:59:26.596|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 09:59:27.603|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 09:59:28.610|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 09:59:29.617|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 09:59:30.624|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 09:59:31.632|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 09:59:32.644|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 09:59:33.652|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 09:59:34.659|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 09:59:35.666|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 09:59:36.673|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 09:59:37.680|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 09:59:38.070|MSG03|ProcessRPCRequest|Received GetOpModes request connnectionID = 0|3|10
+2015-01-21 09:59:38.688|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 09:59:39.074|MSG03|XML Elements SName: VHT JUBILEE, QId VHT_BUILD_PROCESS, DesTime: 2015-01-25, QueryDate; 2015-01-25|3|10
+2015-01-21 09:59:39.075|MSG03|ProcessRPCRequest|Received CheckHoliday request connnectionID = 0|3|10
+2015-01-21 09:59:39.076|MSG03|XML Elements SName: VHT JUBILEE, QId VHT_BUILD_PROCESS, DesTime: 2015-01-26, QueryDate; 2015-01-26|3|10
+2015-01-21 09:59:39.077|MSG03|ProcessRPCRequest|Received CheckHoliday request connnectionID = 0|3|10
+2015-01-21 09:59:39.078|MSG03|XML Elements SName: VHT JUBILEE, QId VHT_BUILD_PROCESS, DesTime: 2015-01-27, QueryDate; 2015-01-27|3|10
+2015-01-21 09:59:39.078|MSG03|ProcessRPCRequest|Received CheckHoliday request connnectionID = 0|3|10
+2015-01-21 09:59:39.079|MSG03|XML Elements SName: VHT JUBILEE, QId VHT_BUILD_PROCESS, DesTime: 2015-01-28, QueryDate; 2015-01-28|3|10
+2015-01-21 09:59:39.080|MSG03|ProcessRPCRequest|Received CheckHoliday request connnectionID = 0|3|10
+2015-01-21 09:59:39.080|MSG03|XML Elements SName: VHT JUBILEE, QId VHT_BUILD_PROCESS, DesTime: 2015-01-22, QueryDate; 2015-01-22|3|10
+2015-01-21 09:59:39.084|MSG03|ProcessRPCRequest|Received CheckHoliday request connnectionID = 0|3|10
+2015-01-21 09:59:39.085|MSG03|XML Elements SName: VHT JUBILEE, QId VHT_BUILD_PROCESS, DesTime: 2015-01-23, QueryDate; 2015-01-23|3|10
+2015-01-21 09:59:39.086|MSG03|ProcessRPCRequest|Received CheckHoliday request connnectionID = 0|3|10
+2015-01-21 09:59:39.087|MSG03|XML Elements SName: VHT JUBILEE, QId VHT_BUILD_PROCESS, DesTime: 2015-01-24, QueryDate; 2015-01-24|3|10
+2015-01-21 09:59:39.087|MSG03|ProcessRPCRequest|Received CheckHoliday request connnectionID = 0|3|10
+2015-01-21 09:59:39.088|MSG03|XML Elements SName: VHT JUBILEE, QId VHT_BUILD_PROCESS, DesTime: 2015-01-21, QueryDate; 2015-01-21|3|10
+2015-01-21 09:59:39.088|MSG03|ProcessRPCRequest|Received CheckHoliday request connnectionID = 0|3|10
+2015-01-21 09:59:39.089|MSG03|XML Elements SName: VHT JUBILEE, QId VHT_BUILD_PROCESS_02, DesTime: 2015-01-25, QueryDate; 2015-01-25|3|10
+2015-01-21 09:59:39.090|MSG03|ProcessRPCRequest|Received CheckHoliday request connnectionID = 0|3|10
+2015-01-21 09:59:39.090|MSG03|XML Elements SName: VHT JUBILEE, QId VHT_BUILD_PROCESS_02, DesTime: 2015-01-26, QueryDate; 2015-01-26|3|10
+2015-01-21 09:59:39.091|MSG03|ProcessRPCRequest|Received CheckHoliday request connnectionID = 0|3|10
+2015-01-21 09:59:39.092|MSG03|XML Elements SName: VHT JUBILEE, QId VHT_BUILD_PROCESS_02, DesTime: 2015-01-27, QueryDate; 2015-01-27|3|10
+2015-01-21 09:59:39.092|MSG03|ProcessRPCRequest|Received CheckHoliday request connnectionID = 0|3|10
+2015-01-21 09:59:39.093|MSG03|XML Elements SName: VHT JUBILEE, QId VHT_BUILD_PROCESS_02, DesTime: 2015-01-28, QueryDate; 2015-01-28|3|10
+2015-01-21 09:59:39.093|MSG03|ProcessRPCRequest|Received CheckHoliday request connnectionID = 0|3|10
+2015-01-21 09:59:39.094|MSG03|XML Elements SName: VHT JUBILEE, QId VHT_BUILD_PROCESS_02, DesTime: 2015-01-22, QueryDate; 2015-01-22|3|10
+2015-01-21 09:59:39.094|MSG03|ProcessRPCRequest|Received CheckHoliday request connnectionID = 0|3|10
+2015-01-21 09:59:39.095|MSG03|XML Elements SName: VHT JUBILEE, QId VHT_BUILD_PROCESS_02, DesTime: 2015-01-23, QueryDate; 2015-01-23|3|10
+2015-01-21 09:59:39.096|MSG03|ProcessRPCRequest|Received CheckHoliday request connnectionID = 0|3|10
+2015-01-21 09:59:39.096|MSG03|XML Elements SName: VHT JUBILEE, QId VHT_BUILD_PROCESS_02, DesTime: 2015-01-24, QueryDate; 2015-01-24|3|10
+2015-01-21 09:59:39.097|MSG03|ProcessRPCRequest|Received CheckHoliday request connnectionID = 0|3|10
+2015-01-21 09:59:39.098|MSG03|XML Elements SName: VHT JUBILEE, QId VHT_BUILD_PROCESS_02, DesTime: 2015-01-21, QueryDate; 2015-01-21|3|10
+2015-01-21 09:59:39.098|MSG03|ProcessRPCRequest|Received CheckHoliday request connnectionID = 0|3|10
+2015-01-21 09:59:39.695|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 09:59:40.703|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 09:59:41.711|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 09:59:42.719|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 09:59:43.727|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 09:59:44.735|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 09:59:45.743|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 09:59:46.754|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 09:59:47.762|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 09:59:48.769|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 09:59:49.776|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 09:59:50.784|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 09:59:51.792|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 09:59:52.800|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 09:59:53.808|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 09:59:54.819|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 09:59:55.828|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 09:59:56.836|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 09:59:57.844|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 09:59:58.852|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 09:59:59.859|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 10:00:00.867|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 10:00:01.879|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 10:00:02.887|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 10:00:03.895|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 10:00:04.903|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 10:00:05.911|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 10:00:06.919|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 10:00:07.926|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 10:00:08.074|MSG03|ProcessRPCRequest|Received GetOpModes request connnectionID = 0|3|10
+2015-01-21 10:00:08.934|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 10:00:09.945|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 10:00:10.954|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 10:00:11.962|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 10:00:12.969|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 10:00:13.977|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 10:00:14.985|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 10:00:15.992|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 10:00:16.999|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 10:00:18.011|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 10:00:19.019|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 10:00:20.028|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 10:00:21.036|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 10:00:22.044|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 10:00:23.052|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 10:00:24.059|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 10:00:25.066|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 10:00:26.078|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 10:00:27.085|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 10:00:28.092|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 10:00:29.100|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 10:00:30.108|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 10:00:31.116|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 10:00:32.125|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 10:00:33.136|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 10:00:34.144|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 10:00:35.151|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 10:00:36.159|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 10:00:37.167|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 10:00:38.078|MSG03|ProcessRPCRequest|Received GetOpModes request connnectionID = 0|3|10
+2015-01-21 10:00:38.175|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 10:00:39.182|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 10:00:40.189|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 10:00:41.201|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 10:00:42.210|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 10:00:43.217|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 10:00:44.224|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 10:00:45.232|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 10:00:46.239|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 10:00:47.246|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 10:00:48.254|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 10:00:49.266|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 10:00:50.275|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 10:00:51.282|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 10:00:52.290|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 10:00:53.297|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 10:00:54.305|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 10:00:55.313|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 10:00:56.324|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 10:00:57.331|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 10:00:58.338|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 10:00:59.346|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 10:01:00.353|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 10:01:01.361|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 10:01:02.369|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 10:01:03.376|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 10:01:04.388|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 10:01:05.396|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 10:01:06.404|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 10:01:07.412|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 10:01:08.082|MSG03|ProcessRPCRequest|Received GetOpModes request connnectionID = 0|3|10
+2015-01-21 10:01:08.420|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 10:01:09.428|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 10:01:10.435|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 10:01:11.443|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 10:01:12.455|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 10:01:13.462|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 10:01:14.470|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 10:01:15.478|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 10:01:16.486|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 10:01:17.495|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 10:01:18.503|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 10:01:19.511|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 10:01:20.523|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 10:01:21.530|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 10:01:22.539|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 10:01:23.546|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 10:01:24.554|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 10:01:25.562|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 10:01:26.569|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 10:01:27.580|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 10:01:28.587|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 10:01:29.594|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 10:01:30.602|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 10:01:31.610|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 10:01:32.618|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 10:01:33.626|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 10:01:34.635|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 10:01:35.647|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 10:01:36.655|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 10:01:37.663|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 10:01:38.086|MSG03|ProcessRPCRequest|Received GetOpModes request connnectionID = 0|3|10
+2015-01-21 10:01:38.670|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 10:01:39.677|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 10:01:40.684|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 10:01:41.692|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 10:01:42.701|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 10:01:43.714|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 10:01:44.722|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 10:01:45.730|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 10:01:46.737|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 10:01:47.745|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 10:01:48.753|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 10:01:49.760|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 10:01:50.767|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 10:01:51.780|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 10:01:52.788|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 10:01:53.796|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 10:01:54.804|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 10:01:55.811|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 10:01:56.819|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 10:01:57.826|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 10:01:58.837|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 10:01:59.845|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 10:02:00.853|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 10:02:01.861|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 10:02:02.868|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 10:02:03.876|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 10:02:04.883|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 10:02:05.891|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 10:02:06.903|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 10:02:07.910|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 10:02:08.090|MSG03|ProcessRPCRequest|Received GetOpModes request connnectionID = 0|3|10
+2015-01-21 10:02:08.917|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 10:02:09.925|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 10:02:10.932|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 10:02:11.941|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 10:02:12.948|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 10:02:13.955|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 10:02:14.966|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 10:02:15.974|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 10:02:16.982|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 10:02:17.990|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 10:02:18.999|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 10:02:20.007|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 10:02:21.015|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 10:02:22.027|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 10:02:23.035|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 10:02:24.042|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 10:02:25.050|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 10:02:26.059|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 10:02:27.067|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 10:02:28.074|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 10:02:29.082|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 10:02:30.094|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 10:02:31.102|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 10:02:32.111|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 10:02:33.118|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 10:02:34.125|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 10:02:35.132|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 10:02:36.139|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 10:02:37.146|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 10:02:38.094|MSG03|ProcessRPCRequest|Received GetOpModes request connnectionID = 0|3|10
+2015-01-21 10:02:38.159|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 10:02:39.166|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 10:02:40.173|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 10:02:41.181|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 10:02:42.190|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 10:02:43.197|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 10:02:44.205|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 10:02:45.212|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 10:02:46.224|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 10:02:47.232|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 10:02:48.240|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 10:02:49.248|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 10:02:50.256|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 10:02:51.263|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 10:02:52.272|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 10:02:53.283|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 10:02:54.291|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 10:02:55.299|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 10:02:56.306|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 10:02:57.314|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 10:02:58.322|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 10:02:59.329|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 10:03:00.336|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 10:03:01.347|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 10:03:02.355|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 10:03:03.362|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 10:03:04.370|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 10:03:05.378|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 10:03:06.385|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 10:03:07.393|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 10:03:08.099|MSG03|ProcessRPCRequest|Received GetOpModes request connnectionID = 0|3|10
+2015-01-21 10:03:08.401|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 10:03:09.414|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 10:03:10.422|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 10:03:11.429|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 10:03:12.437|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 10:03:13.445|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 10:03:14.454|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 10:03:15.462|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 10:03:16.474|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 10:03:17.482|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 10:03:18.490|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 10:03:19.498|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 10:03:20.506|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 10:03:21.514|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 10:03:22.522|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 10:03:23.531|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 10:03:24.542|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 10:03:25.549|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 10:03:26.556|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 10:03:27.563|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 10:03:28.571|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 10:03:29.578|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 10:03:30.587|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 10:03:31.595|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 10:03:32.608|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 10:03:33.615|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 10:03:34.622|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 10:03:35.629|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 10:03:36.637|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 10:03:37.643|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 10:03:38.102|MSG03|ProcessRPCRequest|Received GetOpModes request connnectionID = 0|3|10
+2015-01-21 10:03:38.651|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 10:03:39.658|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 10:03:40.669|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 10:03:41.676|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 10:03:42.685|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 10:03:43.692|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 10:03:44.700|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 10:03:45.707|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 10:03:46.715|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 10:03:47.726|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 10:03:48.734|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 10:03:49.741|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 10:03:50.749|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 10:03:51.757|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 10:03:52.764|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 10:03:53.772|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 10:03:54.780|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 10:03:55.793|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 10:03:56.801|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 10:03:57.809|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 10:03:58.817|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 10:03:59.824|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 10:04:00.832|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 10:04:01.840|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 10:04:02.849|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 10:04:03.861|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 10:04:04.869|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 10:04:05.878|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 10:04:06.885|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 10:04:07.892|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 10:04:08.106|MSG03|ProcessRPCRequest|Received GetOpModes request connnectionID = 0|3|10
+2015-01-21 10:04:08.900|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 10:04:09.908|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 10:04:10.915|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 10:04:11.928|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 10:04:12.936|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 10:04:13.944|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 10:04:14.952|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 10:04:15.959|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 10:04:16.966|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 10:04:17.974|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 10:04:18.986|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 10:04:19.993|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 10:04:21.002|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 10:04:22.011|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 10:04:23.019|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 10:04:24.026|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 10:04:25.033|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 10:04:26.040|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 10:04:27.051|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 10:04:28.059|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 10:04:29.066|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 10:04:30.073|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 10:04:31.080|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 10:04:32.089|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 10:04:33.096|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 10:04:34.103|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 10:04:35.115|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 10:04:36.122|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 10:04:37.129|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 10:04:38.110|MSG03|ProcessRPCRequest|Received GetOpModes request connnectionID = 0|3|10
+2015-01-21 10:04:38.137|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 10:04:39.145|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 10:04:40.111|MSG03|XML Elements SName: VHT JUBILEE, QId VHT_BUILD_PROCESS, DesTime: 2015-01-25, QueryDate; 2015-01-25|3|10
+2015-01-21 10:04:40.112|MSG03|ProcessRPCRequest|Received CheckHoliday request connnectionID = 0|3|10
+2015-01-21 10:04:40.113|MSG03|XML Elements SName: VHT JUBILEE, QId VHT_BUILD_PROCESS, DesTime: 2015-01-26, QueryDate; 2015-01-26|3|10
+2015-01-21 10:04:40.114|MSG03|ProcessRPCRequest|Received CheckHoliday request connnectionID = 0|3|10
+2015-01-21 10:04:40.115|MSG03|XML Elements SName: VHT JUBILEE, QId VHT_BUILD_PROCESS, DesTime: 2015-01-27, QueryDate; 2015-01-27|3|10
+2015-01-21 10:04:40.115|MSG03|ProcessRPCRequest|Received CheckHoliday request connnectionID = 0|3|10
+2015-01-21 10:04:40.116|MSG03|XML Elements SName: VHT JUBILEE, QId VHT_BUILD_PROCESS, DesTime: 2015-01-28, QueryDate; 2015-01-28|3|10
+2015-01-21 10:04:40.116|MSG03|ProcessRPCRequest|Received CheckHoliday request connnectionID = 0|3|10
+2015-01-21 10:04:40.117|MSG03|XML Elements SName: VHT JUBILEE, QId VHT_BUILD_PROCESS, DesTime: 2015-01-22, QueryDate; 2015-01-22|3|10
+2015-01-21 10:04:40.117|MSG03|ProcessRPCRequest|Received CheckHoliday request connnectionID = 0|3|10
+2015-01-21 10:04:40.118|MSG03|XML Elements SName: VHT JUBILEE, QId VHT_BUILD_PROCESS, DesTime: 2015-01-23, QueryDate; 2015-01-23|3|10
+2015-01-21 10:04:40.119|MSG03|ProcessRPCRequest|Received CheckHoliday request connnectionID = 0|3|10
+2015-01-21 10:04:40.119|MSG03|XML Elements SName: VHT JUBILEE, QId VHT_BUILD_PROCESS, DesTime: 2015-01-24, QueryDate; 2015-01-24|3|10
+2015-01-21 10:04:40.120|MSG03|ProcessRPCRequest|Received CheckHoliday request connnectionID = 0|3|10
+2015-01-21 10:04:40.121|MSG03|XML Elements SName: VHT JUBILEE, QId VHT_BUILD_PROCESS, DesTime: 2015-01-21, QueryDate; 2015-01-21|3|10
+2015-01-21 10:04:40.121|MSG03|ProcessRPCRequest|Received CheckHoliday request connnectionID = 0|3|10
+2015-01-21 10:04:40.122|MSG03|XML Elements SName: VHT JUBILEE, QId VHT_BUILD_PROCESS_02, DesTime: 2015-01-25, QueryDate; 2015-01-25|3|10
+2015-01-21 10:04:40.122|MSG03|ProcessRPCRequest|Received CheckHoliday request connnectionID = 0|3|10
+2015-01-21 10:04:40.123|MSG03|XML Elements SName: VHT JUBILEE, QId VHT_BUILD_PROCESS_02, DesTime: 2015-01-26, QueryDate; 2015-01-26|3|10
+2015-01-21 10:04:40.124|MSG03|ProcessRPCRequest|Received CheckHoliday request connnectionID = 0|3|10
+2015-01-21 10:04:40.125|MSG03|XML Elements SName: VHT JUBILEE, QId VHT_BUILD_PROCESS_02, DesTime: 2015-01-27, QueryDate; 2015-01-27|3|10
+2015-01-21 10:04:40.125|MSG03|ProcessRPCRequest|Received CheckHoliday request connnectionID = 0|3|10
+2015-01-21 10:04:40.126|MSG03|XML Elements SName: VHT JUBILEE, QId VHT_BUILD_PROCESS_02, DesTime: 2015-01-28, QueryDate; 2015-01-28|3|10
+2015-01-21 10:04:40.127|MSG03|ProcessRPCRequest|Received CheckHoliday request connnectionID = 0|3|10
+2015-01-21 10:04:40.128|MSG03|XML Elements SName: VHT JUBILEE, QId VHT_BUILD_PROCESS_02, DesTime: 2015-01-22, QueryDate; 2015-01-22|3|10
+2015-01-21 10:04:40.128|MSG03|ProcessRPCRequest|Received CheckHoliday request connnectionID = 0|3|10
+2015-01-21 10:04:40.129|MSG03|XML Elements SName: VHT JUBILEE, QId VHT_BUILD_PROCESS_02, DesTime: 2015-01-23, QueryDate; 2015-01-23|3|10
+2015-01-21 10:04:40.129|MSG03|ProcessRPCRequest|Received CheckHoliday request connnectionID = 0|3|10
+2015-01-21 10:04:40.130|MSG03|XML Elements SName: VHT JUBILEE, QId VHT_BUILD_PROCESS_02, DesTime: 2015-01-24, QueryDate; 2015-01-24|3|10
+2015-01-21 10:04:40.130|MSG03|ProcessRPCRequest|Received CheckHoliday request connnectionID = 0|3|10
+2015-01-21 10:04:40.131|MSG03|XML Elements SName: VHT JUBILEE, QId VHT_BUILD_PROCESS_02, DesTime: 2015-01-21, QueryDate; 2015-01-21|3|10
+2015-01-21 10:04:40.132|MSG03|ProcessRPCRequest|Received CheckHoliday request connnectionID = 0|3|10
+2015-01-21 10:04:40.152|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 10:04:41.164|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 10:04:42.173|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 10:04:43.180|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 10:04:44.188|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 10:04:45.199|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 10:04:46.206|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 10:04:47.214|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 10:04:48.224|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 10:04:49.231|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 10:04:50.238|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 10:04:51.245|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 10:04:52.254|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 10:04:53.262|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 10:04:54.269|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 10:04:55.277|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 10:04:56.288|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 10:04:57.296|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 10:04:58.304|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 10:04:59.312|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 10:05:00.320|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 10:05:01.328|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 10:05:02.336|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 10:05:03.343|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 10:05:04.354|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 10:05:05.362|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 10:05:06.370|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 10:05:07.377|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 10:05:08.114|MSG03|ProcessRPCRequest|Received GetOpModes request connnectionID = 0|3|10
+2015-01-21 10:05:08.385|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 10:05:09.393|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 10:05:10.401|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 10:05:11.409|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 10:05:12.421|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 10:05:13.429|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 10:05:14.437|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 10:05:15.445|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 10:05:16.452|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 10:05:17.460|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 10:05:18.468|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 10:05:19.479|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 10:05:20.487|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 10:05:21.495|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 10:05:22.505|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 10:05:23.513|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 10:05:24.522|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 10:05:25.530|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 10:05:26.539|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 10:05:27.551|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 10:05:28.558|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 10:05:29.566|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 10:05:30.573|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 10:05:31.581|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 10:05:32.590|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 10:05:33.597|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 10:05:34.604|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 10:05:35.614|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 10:05:36.622|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 10:05:37.629|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 10:05:38.119|MSG03|ProcessRPCRequest|Received GetOpModes request connnectionID = 0|3|10
+2015-01-21 10:05:38.636|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 10:05:39.644|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 10:05:40.651|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 10:05:41.659|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 10:05:42.671|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 10:05:43.679|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 10:05:44.687|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 10:05:45.694|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 10:05:46.702|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 10:05:47.710|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 10:05:48.718|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 10:05:49.726|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 10:05:50.738|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 10:05:51.747|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 10:05:52.755|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 10:05:53.762|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 10:05:54.770|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 10:05:55.777|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 10:05:56.785|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 10:05:57.794|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 10:05:58.806|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 10:05:59.814|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 10:06:00.821|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 10:06:01.830|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 10:06:02.838|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 10:06:03.846|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 10:06:04.854|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 10:06:05.862|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 10:06:06.874|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 10:06:07.882|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 10:06:08.123|MSG03|ProcessRPCRequest|Received GetOpModes request connnectionID = 0|3|10
+2015-01-21 10:06:08.891|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 10:06:09.899|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 10:06:10.907|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 10:06:11.916|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 10:06:12.923|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 10:06:13.935|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 10:06:14.943|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 10:06:15.951|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 10:06:16.959|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 10:06:17.967|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 10:06:18.974|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 10:06:19.982|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 10:06:20.989|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 10:06:22.002|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 10:06:23.009|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 10:06:24.017|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 10:06:25.026|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 10:06:26.034|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 10:06:27.041|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 10:06:28.049|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 10:06:29.056|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 10:06:30.068|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 10:06:31.076|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 10:06:32.085|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 10:06:33.092|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 10:06:34.101|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 10:06:35.109|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 10:06:36.117|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 10:06:37.124|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 10:06:38.126|MSG03|ProcessRPCRequest|Received GetOpModes request connnectionID = 0|3|10
+2015-01-21 10:06:38.136|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 10:06:39.144|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 10:06:40.151|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 10:06:41.158|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 10:06:42.167|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 10:06:43.174|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 10:06:44.181|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 10:06:45.192|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 10:06:46.199|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 10:06:47.206|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 10:06:48.213|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 10:06:49.221|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 10:06:50.229|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 10:06:51.236|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 10:06:52.245|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 10:06:53.257|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 10:06:54.265|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 10:06:55.272|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 10:06:56.280|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 10:06:57.287|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 10:06:58.294|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 10:06:59.302|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 10:07:00.310|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 10:07:01.342|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 10:07:02.350|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 10:07:03.357|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 10:07:04.365|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 10:07:05.373|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 10:07:06.380|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 10:07:07.388|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 10:07:08.134|MSG03|ProcessRPCRequest|Received GetOpModes request connnectionID = 0|3|10
+2015-01-21 10:07:08.396|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 10:07:09.404|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 10:07:10.411|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 10:07:11.418|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 10:07:12.426|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 10:07:13.433|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 10:07:14.441|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 10:07:15.449|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 10:07:16.460|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 10:07:17.468|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 10:07:18.476|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 10:07:19.483|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 10:07:20.490|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 10:07:21.498|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 10:07:22.507|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 10:07:23.515|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 10:07:24.527|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 10:07:25.535|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 10:07:26.543|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 10:07:27.550|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 10:07:28.557|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 10:07:29.564|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 10:07:30.571|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 10:07:31.579|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 10:07:32.592|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 10:07:33.600|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 10:07:34.607|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 10:07:35.615|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 10:07:36.623|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 10:07:37.630|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 10:07:38.137|MSG03|ProcessRPCRequest|Received GetOpModes request connnectionID = 0|3|10
+2015-01-21 10:07:38.638|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 10:07:39.649|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 10:07:40.657|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 10:07:41.664|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 10:07:42.673|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 10:07:43.680|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 10:07:44.688|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 10:07:45.695|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 10:07:46.702|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 10:07:47.714|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 10:07:48.722|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 10:07:49.730|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 10:07:50.738|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 10:07:51.746|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 10:07:52.754|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 10:07:53.762|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 10:07:54.770|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 10:07:55.782|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 10:07:56.790|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 10:07:57.798|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 10:07:58.806|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 10:07:59.813|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 10:08:00.821|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 10:08:01.829|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 10:08:02.837|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 10:08:03.848|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 10:08:04.855|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 10:08:05.863|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 10:08:06.872|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 10:08:07.879|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 10:08:08.141|MSG03|ProcessRPCRequest|Received GetOpModes request connnectionID = 0|3|10
+2015-01-21 10:08:08.887|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 10:08:09.895|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 10:08:10.908|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 10:08:11.917|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 10:08:12.925|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 10:08:13.934|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 10:08:14.942|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 10:08:15.950|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 10:08:16.957|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 10:08:17.964|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 10:08:18.974|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 10:08:19.982|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 10:08:20.989|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 10:08:21.997|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 10:08:23.004|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 10:08:24.011|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 10:08:25.019|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 10:08:26.026|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 10:08:27.039|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 10:08:28.048|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 10:08:29.055|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 10:08:30.063|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 10:08:31.070|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
+2015-01-21 10:08:32.078|MSG04|Checking Operation Modes.|VHT JUBILEE_OperationMode_Monitor|8
