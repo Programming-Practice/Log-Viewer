@@ -1,9 +1,5 @@
-require_relative "MainOutputLog"
-
-
-describe "object exists" do
-  it "returns an object" do
-    mainLog = MainOutputLogFile.new
-    mainLog.should_not == nil
+describe "a sample" do
+  it "should pass" do
+    # true
   end
 end
