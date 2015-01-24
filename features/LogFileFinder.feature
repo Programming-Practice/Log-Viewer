@@ -5,3 +5,7 @@ Feature: Log File Finder
     Given I create a LogFileFinder pointed at the "TestLogs/VHLogs" folder
     When I ask for the main_output logs
     Then I should find 5 log files
+
+  Scenario: Log File Finder should throw an IOError when I try to create one with a bogus directory
+    When I create a LogFileFinder pointed at the "no-such-directory" folder
+    Then I should expect an IOError exception with message "The directory "no-such-directory" does not exist."
