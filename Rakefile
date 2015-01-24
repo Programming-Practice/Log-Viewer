@@ -6,7 +6,9 @@ begin
     t.cucumber_opts = "features --format pretty"
   end
   
-  RSpec::Core::RakeTask.new(:spec)
+  RSpec::Core::RakeTask.new(:spec) do |t|
+    t.rspec_opts = "--format documentation"
+  end
   
   task :default => [:spec,:features]
 
