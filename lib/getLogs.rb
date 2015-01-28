@@ -1,4 +1,5 @@
 require_relative "helpers"
+require_relative "../../Log-Viewer/spec/MainOutputLog"
 
 # From Console
 
@@ -13,24 +14,15 @@ puts v1
 # log_path = RegistryHelpers.read_value(Reg_path, Log_key)
 # puts "Your log file path is: #{log_path}\n"
 #
-# main_date_folders = Dir.entries(log_path+"\\Main")
-# main_date_folders.delete_at(0)
-# main_date_folders.delete_at(0)
-# puts "\n"
-# puts "Main Output Folders:\n"
-# puts "\t"+main_date_folders[0].to_s
-#
-# main_files = []
-#
-# puts "\n"
-# puts "Main Output Files:\n"
-# main_date_folders.each do |folder|
-#   temp_files = Dir.entries(log_path+"\\Main\\"+folder.to_s)
-#   temp_files.delete_at(0)
-#   temp_files.delete_at(0)
-#   main_files += temp_files
-# end
-#
-# main_files.each do |filename|
-#     puts "\t"+filename.to_s
-# end
+
+log_path = ARGV[0]
+
+tempMainLogFile = Log_Viewer.new(log_path)
+
+puts tempMainLogFile.display_path.to_s
+
+tempMainLogFile.display_date_folders
+
+tempMainLogFile.display_main_files
+
+
