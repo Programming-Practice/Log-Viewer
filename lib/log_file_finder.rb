@@ -1,7 +1,3 @@
-def all_main_output_logs(root_dir_name)
-  []
-end
-
 class LogFileFinder
 
   def initialize(root_log_dir)
@@ -15,7 +11,6 @@ class LogFileFinder
       end
 
     end
-
   end
 
   def main_output
@@ -72,4 +67,3 @@ class LogFileFinder
 
 
 end
-#Dir.glob("C:\Projects\Log-Viewer\TestLogs\VHLogs\**\MainOutputLog*.txt")
