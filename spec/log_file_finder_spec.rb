@@ -1,4 +1,4 @@
-require 'spec_helper'
+require_relative 'spec_helper'
 
 describe LogFileFinder do
 
@@ -22,4 +22,10 @@ describe LogFileFinder do
   it 'should include the requested directory name when raising the error' do
     expect { LogFileFinder.new('does_not_exist')}.to raise_error 'The directory "does_not_exist" does not exist.'
   end
+
+  it 'should return a list of main logs' do
+    finder = LogFileFinder.new('TestLogs/VHLogs/Logs')
+    expect(finder.main_output.size).to be > 0
+  end
+
 end
