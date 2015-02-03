@@ -4,3 +4,4 @@ coverage/
 Gemfile.lock
 .ruby-version
 .ruby-gemset
+log-viewer-*.gem
