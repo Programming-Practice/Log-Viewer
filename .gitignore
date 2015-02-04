@@ -1,3 +1,8 @@
+*~
+coverage/
 .idea/
 Gemfile.lock
-coverage/
+.ruby-version
+.ruby-gemset
+log-viewer-*.gem
+*.orig
