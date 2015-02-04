@@ -1,4 +1,6 @@
 require 'simplecov'
 SimpleCov.start
 
-require_relative '../lib/log_search'
+$:.unshift File.dirname(__FILE__)+'../lib'
+
+require 'log_search'
