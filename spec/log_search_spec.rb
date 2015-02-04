@@ -1,6 +1,4 @@
-require 'rspec'
-require_relative '../lib/logSearch'
-
+require 'spec_helper'
 
 describe 'Log search should return correct search results' do
 
