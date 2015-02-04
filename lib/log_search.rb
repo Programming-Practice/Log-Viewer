@@ -3,9 +3,7 @@ class LogSearch
 
   def search(log, stringToFind)
 
-    unless File.exist?(log)
-      raise IOError,"The log \"#{log}\" does not exist."
-    end
+    raise IOError,"The log \"#{log}\" does not exist."  unless File.exist? log
 
     results = Array.new
     line_num = 0
