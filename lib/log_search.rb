@@ -1,4 +1,3 @@
-
 class LogSearch
 
   def search(log, stringToFind)
@@ -10,10 +9,14 @@ class LogSearch
 
     File.read(log).each_line {|line|
       line_num += 1
-      results << "#{line_num} " + line if line.match(stringToFind)
+      results << "#{line_num} " + line if line_matches(line, stringToFind)
     }
     return results
 
+  end
+
+  def line_matches(line, stringToFind)
+    line.match(stringToFind)
   end
 
 end
