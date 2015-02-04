@@ -8,4 +8,8 @@ describe 'VersionParser' do
     parser = VersionParser.new
     parser.get_version_from_file(filename).should == 'Version 7, 6, 10, 2943'
   end
+
+  it 'should not error when no version exists' do
+  end
+
 end
