@@ -9,7 +9,7 @@ class LogSearch
 
     File.read(log).each_line {|line|
       line_num += 1
-      results << "#{line_num} " + line if line_matches(line, stringToFind)
+      results << LineMatch.new(line_num,line) if line_matches(line,stringToFind)
     }
     return results
 

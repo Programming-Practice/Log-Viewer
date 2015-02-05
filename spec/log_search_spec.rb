@@ -12,7 +12,7 @@ describe LogSearch do
     end
 
     it 'should print the log does not exist' do
-      expect { subject.search('test.txt', 'Utilities') }.to raise_error IOError
+      expect {subject.search('test.txt', 'Utilities') }.to raise_error IOError
     end
   end
 
