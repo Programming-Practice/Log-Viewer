@@ -2,7 +2,7 @@ require 'spec_helper'
 
 describe LineMatch do
 
-  let(:subject) { LineMatch.new(4,'This should be returned') }
+  subject { described_class.new(4,'This should be returned') }
 
   it 'should return the line' do
     expect(subject.line).to eq('This should be returned')
