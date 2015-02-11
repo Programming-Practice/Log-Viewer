@@ -1,0 +1,28 @@
+2015-01-21 09:54:15.285|*** Server JUBILEE
+			Log File C:\Program Files (x86)\Virtual Hold Technology\VHLogs\Logs\2015_01_21\Main\09_54_15\MainOutputLog_00001.txt
+			VHT_QueueManager_DLL (Version 7, 6, 10, 2943)
+			Current Log Level 5 (Software\Virtual Hold\LogLevel)|1574
+2015-01-21 09:54:15.285|INFO|Utilities::SetTimerResolution|Timer resolution set to 1 MS| |1574
+2015-01-21 09:54:15.285|INFO|QueueManagerStartup::Start| START|1574
+2015-01-21 09:54:15.287|INFO|CCallbackPhoneNumbers::CCallbackPhoneNumbers| Created | 03DECB80|1574
+2015-01-21 09:54:15.288|CCallbackLauncher::CCallbackLauncher|CreateTimerQueue Succeeded, HANDLE = 8b5e78|1574
+2015-01-21 09:54:15.303|CCallStateTimerManager::CCallStateTimerManager|CreateTimerQueue Succeeded, HANDLE = 9132728|1574
+2015-01-21 09:54:15.303|WARNING|Utilities::ReadRegistry| Key\Value [Software\Virtual Hold\Genesys\UseRemoteTServer] = [FALSE]| DEFAULTED, missing, empty or not a REG_SZ type|1574
+2015-01-21 09:54:15.303|WARNING|Utilities::ReadRegistry| Key\Value [Software\Virtual Hold\IBIVRPortDisconnectedTimeoutInMS] = [10000]| DEFAULTED, missing, empty or not a REG_SZ type|1574
+2015-01-21 09:54:15.304|INFO|SmartQueue<class AsynchronousCallProcessing::WorkItem,3000>::SmartQueue: QueueOfAsynchronousCallProcessingWorkItems|1574
+2015-01-21 09:54:15.304|INFO|Utilities::StartThread| AsynchronousCallProcessing Thread created (c70)|1574
+2015-01-21 09:54:15.304|INFO|AsynchronousCallProcessing::Initialize| Started AsynchronousCallProcessing thread|1574
+2015-01-21 09:54:15.304|INFO|SmartQueue<class CQueuesSnapShotThreadData,3000>::SmartQueue: QueueOfSnapShotData|1574
+2015-01-21 09:54:15.304|INFO|AsynchronousCallProcessing::AsynchronousCallProcessingFunc|START|c70
+2015-01-21 09:54:15.304|INFO|Utilities::StartThread| ProcessSnapShotDataFunc Thread created (27f0)|1574
+2015-01-21 09:54:15.304|INFO|CVirtualHold::ProcessSnapShotDataFunc|START|27f0
+2015-01-21 09:54:15.305|INFO|CInterfaceManagerServer::InitializeQMCL| Initializing Server Socket|1574
+2015-01-21 09:54:15.305|INFO|Utilities::ReadRegistry| Key\Value [Software\Virtual Hold\QMCL Settings\Queue Manager\ServerPrimaryIPAddress] = [10.30.0.110]|1574
+2015-01-21 09:54:15.305|INFO|Utilities::ReadRegistry| Key\Value [Software\Virtual Hold\QMCL Settings\Queue Manager\ServerPrimaryPort] = [9999]|1574
+2015-01-21 09:54:15.305|INFO|Utilities::ReadRegistry| Key\Value [Software\Virtual Hold\QMCL Settings\Queue Manager\HLOC] = [1]|1574
+2015-01-21 09:54:15.316|INFO|Utilities::ReadRegistry| Key\Value [Software\Virtual Hold\QMCL Settings\Queue Manager\MinThreadPoolSize] = [3]|1574
+2015-01-21 09:54:15.316|INFO|Utilities::ReadRegistry| Key\Value [Software\Virtual Hold\QMCL Settings\Queue Manager\MaxThreadPoolSize] = [30]|1574
+2015-01-21 09:54:15.316|INFO|CIM_QMCL_Translator::ThreadPoolEnabled| Thread pool ENABLED. Thread pool sizes: Min 3 / Max 30|1574
+2015-01-21 09:54:15.316|INFO|SmartQueue<struct _TMessageData,3000>::SmartQueue: QueueOfMessages|1574
+2015-01-21 09:54:15.316|INFO|Utilities::StartThread| CIM_QMCL_Translator::ThreadPoolFunc Thread created (804)|1574
+2015-01-21 09:54:15.316|INFO|CIM_QMCL_Translator::ThreadPoolFunc|START| Thread data (03DD9F60x)|804

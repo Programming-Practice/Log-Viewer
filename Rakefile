@@ -1,9 +1,21 @@
 begin
   require 'rspec/core/rake_task'
+  require 'cucumber/rake/task'
+  
+  task :gem do
+    system 'gem build log-viewer.gemspec'
+  end
 
-  RSpec::Core::RakeTask.new(:spec)
+  Cucumber::Rake::Task.new(:features) do |t|
+    t.cucumber_opts = "features --format pretty"
+  end
+  
+  RSpec::Core::RakeTask.new(:spec) do |t|
+    t.rspec_opts = "--format documentation"
+  end
+  
+  task :default => [:spec,:features,:gem]
 
-  task :default => :spec
 rescue LoadError
   # no rspec available
 end
