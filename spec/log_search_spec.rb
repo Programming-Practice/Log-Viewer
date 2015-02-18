@@ -16,4 +16,8 @@ describe LogSearch do
     end
   end
 
+  it 'should return the correct number of call IDs' do
+    expect(subject.number_of_call_ids('TestLogs/test.txt')).to equal(4)
+  end
+
 end
