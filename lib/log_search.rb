@@ -66,6 +66,8 @@ class LogSearch
           call_id = line.to_s.partition('|New Call').first
           call_ids.push(call_id) unless call_ids.include?(call_id)
         }
+      else
+        raise IOError, "The file type \"#{log_file_type}\" is invalid"
     end
     call_ids
   end

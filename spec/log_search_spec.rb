@@ -34,7 +34,9 @@ describe LogSearch do
       expect(subject.get_number_of_call_ids('TestLogs/test.txt' , 'MainOutputLog')).to equal(4)
     end
 
-    #TODO pass in something that is not a file, should raise error
+    it 'An operator was not passed for multiple keywords' do
+      expect {subject.get_number_of_call_ids('TestLogs/test.txt', 'UnknownLog') }.to raise_error IOError
+    end
 
     it 'should return 0 if passed a main report log file with no logs in it' do
       expect(subject.get_number_of_call_ids('TestLogs/empty_folder/readme.txt' , 'MainReportLog')).to equal(0)
