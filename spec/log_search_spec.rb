@@ -2,6 +2,17 @@ require 'spec_helper'
 
 shared_examples :search_engine do
 
+  subject { LogSearch.new }
+
+  context 'instanciation' do
+
+    it 'raises an exception when given an invalid strategy' do
+      expect {
+        described_class.new('foo', mode: :bogus_strategy)
+      }.to raise_error(ArgumentError)
+    end
+  end
+
   describe '#search' do
     it 'should return an array containing the correct number of lines' do
       expect(subject.search('TestLogs/test.txt', described_class.new('Utilities')).length).to eq(11)
@@ -87,14 +98,51 @@ end
 
 describe Keyword do
 
-  subject { LogSearch.new }
+  it_behaves_like :search_engine
+end
+
+describe KeywordUsingSend do
 
   it_behaves_like :search_engine
 end
 
-describe KeywordPartDeux do
-
-  subject { LogSearch.new }
+describe KeywordUsingLambdas do
 
   it_behaves_like :search_engine
+end
+
+describe KeywordByDefineMethod do
+
+  it_behaves_like :search_engine
+end
+
+describe KeywordWithBlock do
+
+  let(:logger) { LogSearch.new }
+
+  context 'case sensitive' do
+
+    let!(:string){ 'Utilities' }
+
+    subject do
+      KeywordWithBlock.new(string) {|string, line| line.include?(string) }
+    end
+
+    it 'should return an array containing the correct number of lines' do
+      expect(logger.search('TestLogs/test.txt', subject).length).to eq(11)
+    end
+  end
+
+  context 'case insensitive' do
+
+    let!(:string){ 'uTILITIES' }
+
+    subject do
+      KeywordWithBlock.new(string) {|string, line| line.downcase.include?(string.downcase) }
+    end
+
+    it 'should return an array containing the correct number of lines' do
+      expect(logger.search('TestLogs/test.txt', subject).length).to eq(11)
+    end
+  end
 end

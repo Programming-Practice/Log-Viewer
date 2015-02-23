@@ -27,16 +27,14 @@ class Keyword
     strategy = mode.slice(0,1).capitalize + mode.slice(1..-1)
 
     # extend *just this object* with the appropriate strategy module
-    extend Keyword.const_get("#{strategy}SearchStrategy")
+    extend self.class.const_get("#{strategy}SearchStrategy")
 
   rescue NameError
     raise ::ArgumentError.new(":#{mode} is not a valid strategy")
-    # or, fallback to a default
-    #extend SensitiveSearchStrategy
   end
 end
 
-class KeywordPartDeux
+class KeywordUsingSend
 
   # using keyword arguments for optional parameters
   # NOTE: Only works with Ruby 2.0 and newer (which JRuby does not support yet)
@@ -65,5 +63,65 @@ class KeywordPartDeux
 
   def insensitive_match?(line)
     line.downcase.include? @string.downcase
+  end
+end
+
+class KeywordUsingLambdas
+
+  STRATEGIES = {
+    sensitive: ->(string, line){ line.include?(string) },
+    insensitive: ->(string, line){ line.downcase.include?(string.downcase) },
+  }
+
+  def initialize(string, mode: :sensitive)
+    @strategy = STRATEGIES[mode]
+    raise ::ArgumentError.new(":#{mode} is not a valid strategy") unless @strategy
+    @string = string
+  end
+
+  def matches?(line)
+    @strategy.call(@string, line)
+  end
+end
+
+class KeywordByDefineMethod
+
+  def initialize(string, mode: :sensitive)
+    @string = string
+
+    # get an object representing the delegate method
+    strategy = self.method("#{mode}_match?")
+
+    # get this object's singleton class (aka Eigenclass)
+    metaclass = class << self; self; end
+
+    # define the matches? method for *this object only*
+    metaclass.send(:define_method, :matches?, &strategy)
+
+  rescue NameError
+    raise ::ArgumentError.new(":#{mode} is not a valid strategy")
+  end
+
+  private
+
+  def sensitive_match?(line)
+    line.include? @string
+  end
+
+  def insensitive_match?(line)
+    line.downcase.include? @string.downcase
+  end
+end
+
+class KeywordWithBlock
+
+  def initialize(string, &block)
+    raise ArgumentError.new('no block given') unless block_given?
+    @string = string
+    @strategy = block
+  end
+
+  def matches?(line)
+    @strategy.call(@string, line)
   end
 end
