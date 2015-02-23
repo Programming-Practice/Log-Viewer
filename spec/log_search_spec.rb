@@ -78,5 +78,9 @@ describe LogSearch do
     it 'should return an array containing the correct number of lines' do
       expect(subject.search('TestLogs/test.txt', Keyword.new('uTILITIES',:insensitive)).length).to eq(11)
     end
+
+    it 'should return an array containing the correct number of lines' do
+      expect(subject.search('TestLogs/test.txt', Keyword.new('New Call|Interaction Created',:insensitive)).length).to eq(2)
+    end
   end
 end
