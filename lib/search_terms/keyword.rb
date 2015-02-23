@@ -1,19 +1,24 @@
 class Keyword
+
   def initialize(string,mode = :sensitive)
+    @string = string
     @mode = mode
-    if @mode == :insensitive
-    then
-      @string = string.downcase
-    else
-      @string = string
-    end
   end
+
   def matches?(line)
-    if @mode == :insensitive
-    then
-      line.downcase.include? @string
-    else
-      line.include? @string
-    end
+    # dynamically call the appropriate private method
+    # NOTE: if an invalid mode was passed at construction this will raise
+    #       a NoMethodError exception
+    send("#{@mode}_match?", line)
+  end
+
+  private
+
+  def sensitive_match?(line)
+    line.include? @string
+  end
+
+  def insensitive_match?(line)
+    line.downcase.include? @string.downcase
   end
 end
