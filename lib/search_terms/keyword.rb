@@ -33,7 +33,7 @@ class Keyword
   end
 end
 
-class Keyword
+class KeywordPartDeux
 
   def initialize(string,mode = :sensitive)
     @strategy = validate_strategy!(mode)
