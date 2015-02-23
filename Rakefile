@@ -3,7 +3,7 @@ begin
   require 'cucumber/rake/task'
   
   task :gem do
-    system 'gem build log-viewer.gemspec'
+    system 'gem build pp-log-viewer.gemspec'
   end
 
   Cucumber::Rake::Task.new(:features) do |t|
