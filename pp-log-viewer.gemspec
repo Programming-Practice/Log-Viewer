@@ -1,7 +1,6 @@
-
 Gem::Specification.new do |s|
   s.name        = 'pp-log-viewer'
-  s.version     = 1.0.0
+  s.version     = '1.0.0'
   s.platform    = Gem::Platform::RUBY
   s.author      = 'Programming Practice'
   s.email       = 'developers@virtualhold.com'
@@ -19,6 +18,4 @@ Gem::Specification.new do |s|
   s.require_paths    = ['lib']
 
   s.required_ruby_version = '>= 2.0.0'
-
 end
-
