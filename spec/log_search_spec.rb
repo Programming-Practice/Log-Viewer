@@ -111,6 +111,11 @@ describe KeywordUsingLambdas do
   it_behaves_like :search_engine
 end
 
+describe KeywordByMethodAlias do
+
+  it_behaves_like :search_engine
+end
+
 describe KeywordByDefineMethod do
 
   it_behaves_like :search_engine
