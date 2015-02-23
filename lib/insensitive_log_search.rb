@@ -1,9 +1,9 @@
-require 'log_search'
+require 'search_terms/keyword'
 
-class InsensitiveLogSearch < LogSearch
+class InsensitiveLogSearch < Keyword
 
-  def line_matches(line, stringToFind)
-    line.match(/\b#{stringToFind}\b/i)
+  def matches?(line)
+    line.include?(/\b#{@string}\b/i)
   end
 
 end
