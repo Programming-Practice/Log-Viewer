@@ -24,33 +24,41 @@ class Keyword
     strategy = mode.slice(0,1).capitalize + mode.slice(1..-1)
 
     # extend *just this object* with the appropriate strategy module
-    # NOTE: if an invalid mode was passed at construction this will raise
-    #       a NameError exception
     extend Keyword.const_get("#{strategy}SearchStrategy")
+
+  rescue NameError
+    raise ::ArgumentError.new(":#{mode} is not a valid strategy")
+    # or, fallback to a default
+    #extend InsensitiveSearchStrategy
   end
 end
 
-#class Keyword
+class Keyword
 
-  #def initialize(string,mode = :sensitive)
-    #@string = string
-    #@mode = mode
-  #end
+  def initialize(string,mode = :sensitive)
+    @strategy = validate_strategy!(mode)
+    @string = string
+  end
 
-  #def matches?(line)
-    ## dynamically call the appropriate private method
-    ## NOTE: if an invalid mode was passed at construction this will raise
-    ##       a NoMethodError exception
-    #send("#{@mode}_match?", line)
-  #end
+  def matches?(line)
+    send(@strategy, line)
+  end
 
-  #private
+  private
 
-  #def sensitive_match?(line)
-    #line.include? @string
-  #end
+  def validate_strategy!(mode)
+    strategy = "#{mode}_match?".to_sym
+    unless respond_to?(strategy, true)
+      raise ::ArgumentError.new(":#{mode} is not a valid strategy")
+    end
+    strategy
+  end
 
-  #def insensitive_match?(line)
-    #line.downcase.include? @string.downcase
-  #end
-#end
+  def sensitive_match?(line)
+    line.include? @string
+  end
+
+  def insensitive_match?(line)
+    line.downcase.include? @string.downcase
+  end
+end
