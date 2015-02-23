@@ -89,12 +89,12 @@ describe Keyword do
 
   subject { LogSearch.new }
 
-  it_should_behave_like :search_engine
+  it_behaves_like :search_engine
 end
 
 describe KeywordPartDeux do
 
   subject { LogSearch.new }
 
-  it_should_behave_like :search_engine
+  it_behaves_like :search_engine
 end
