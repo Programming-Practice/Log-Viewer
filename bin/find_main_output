@@ -1,6 +1,6 @@
 #!/usr/bin/env ruby
 
-require 'log_file_finder'
+require 'pp_log_viewer'
 
 LogFileFinder.new(ARGV[0]).main_output.each do |main_output_file|
   puts main_output_file
