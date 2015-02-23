@@ -2,7 +2,6 @@ class Keyword
   def initialize(string,mode = :sensitive)
     @mode = mode
     if @mode == :insensitive
-    then
       @string = string.downcase
     else
       @string = string
@@ -10,7 +9,6 @@ class Keyword
   end
   def matches?(line)
     if @mode == :insensitive
-    then
       line.downcase.include? @string
     else
       line.include? @string
