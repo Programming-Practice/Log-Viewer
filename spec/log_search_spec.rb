@@ -74,6 +74,9 @@ describe LogSearch do
                                              Keyword.new('INFO'),
                                              Keyword.new('CVHTCall')))).length).to eq(14)
     end
-  end
 
+    it 'should return an array containing the correct number of lines' do
+      expect(subject.search('TestLogs/test.txt', Keyword.new('uTILITIES',:insensitive)).length).to eq(11)
+    end
+  end
 end

@@ -1,8 +1,14 @@
 class Keyword
-  def initialize(string)
+  def initialize(string,mode = :sensitive)
+    @mode = mode
     @string = string
   end
   def matches?(line)
-    line.include?(@string)
+    if @mode == :insensitive
+    then
+      line =~ /#{@string}/i
+    else
+      line.include? @string
+    end
   end
 end
