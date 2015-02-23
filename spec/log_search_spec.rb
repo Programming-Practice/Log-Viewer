@@ -76,11 +76,11 @@ shared_examples :search_engine do
     end
 
     it 'should return an array containing the correct number of lines' do
-      expect(subject.search('TestLogs/test.txt', described_class.new('uTILITIES',:insensitive)).length).to eq(11)
+      expect(subject.search('TestLogs/test.txt', described_class.new('uTILITIES',mode: :insensitive)).length).to eq(11)
     end
 
     it 'should return an array containing the correct number of lines' do
-      expect(subject.search('TestLogs/test.txt', described_class.new('New Call|Interaction Created',:insensitive)).length).to eq(2)
+      expect(subject.search('TestLogs/test.txt', described_class.new('New Call|Interaction Created', mode: :insensitive)).length).to eq(2)
     end
   end
 end

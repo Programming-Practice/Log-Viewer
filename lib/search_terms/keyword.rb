@@ -12,14 +12,17 @@ class Keyword
     end
   end
 
-  def initialize(string,mode = :sensitive)
-    strategize(mode)
+  # classic options-hash approach to optional arguments
+  # works on all commonly used Ruby versions
+  def initialize(string, opts = {})
+    mode = opts.fetch(:mode, :sensitive) # the fetch method lets us set a default
+    strategize!(mode)
     @string = string
   end
 
   private
 
-  def strategize(mode)
+  def strategize!(mode)
     # capitalize the first letter of the mode
     strategy = mode.slice(0,1).capitalize + mode.slice(1..-1)
 
@@ -29,13 +32,15 @@ class Keyword
   rescue NameError
     raise ::ArgumentError.new(":#{mode} is not a valid strategy")
     # or, fallback to a default
-    #extend InsensitiveSearchStrategy
+    #extend SensitiveSearchStrategy
   end
 end
 
 class KeywordPartDeux
 
-  def initialize(string,mode = :sensitive)
+  # using keyword arguments for optional parameters
+  # NOTE: Only works with Ruby 2.0 and newer (which JRuby does not support yet)
+  def initialize(string, mode: :sensitive)
     @strategy = validate_strategy!(mode)
     @string = string
   end
