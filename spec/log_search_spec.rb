@@ -43,7 +43,7 @@ shared_examples :search_engine do
     end
 
     it 'should return the correct number of call IDs from a populated main output log file' do
-      expect(subject.get_number_of_call_ids('TestLogs/test.txt' , 'MainOutputLog')).to equal(4)
+      expect(subject.get_number_of_call_ids('TestLogs/test.txt' , 'MainReportLog')).to equal(2)
     end
 
     it 'does a simple search with a keyword' do
