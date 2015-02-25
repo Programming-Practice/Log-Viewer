@@ -15,11 +15,6 @@ class LogSearch
 
   end
 
-
-  def line_matches(line, stringToFind)
-    line.match(stringToFind)
-  end
-
   def get_call_ids(data, log_file_type)
     call_ids = []
     case log_file_type
@@ -29,7 +24,7 @@ class LogSearch
           call_ids.push(call_id) unless call_ids.include?(call_id)
         }
       when 'MainReportLog'
-        search(data, Keyword.new('New Call\|Interaction Created')).each { |line|
+        search(data, Keyword.new('New Call|Interaction Created')).each { |line|
           call_id = line.to_s.partition('|New Call').first
           call_ids.push(call_id) unless call_ids.include?(call_id)
         }
