@@ -33,5 +33,10 @@ describe LogFileFinder do
       expect(file).to match(/MainOutputLog_/)
     end
   end
-
+  it 'should return all matches for all files in a directory' do
+    LogFileFinder.new(DIRECTORY_WITH_FIVE_LOGS).main_output.each do |file|
+        expect(LogSearch.new().search(file, ['Log file'], nil).length).to eq(1)
+    end
+  end
 end
+
