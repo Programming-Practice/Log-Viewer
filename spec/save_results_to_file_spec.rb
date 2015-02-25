@@ -1,6 +1,6 @@
 require 'spec_helper'
 
-describe SaveResultsToFile do
+describe ResultSaver do
 
   it 'Should create a file when passed a result' do
 

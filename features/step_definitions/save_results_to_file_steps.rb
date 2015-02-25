@@ -1,9 +1,9 @@
-require '../../lib/save_results_to_file'
+require 'result_saver'
 
 
 When(/^a user saves results to a file$/) do
   @ResultSaver = ResultSaver.new
-  ResultSaver.execute()
+  expect(@ResultSaver.execute()).to eq("unexpected value")
 end
 
 Then(/^a file should be created$/) do
