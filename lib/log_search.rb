@@ -46,27 +46,34 @@ class LogSearch
         code << "line_matches(line, stringToFind[#{index}])"
       }
     end
-
     return code
   end
-
-
 
   def line_matches(line, stringToFind)
     line.match(stringToFind)
   end
 
-  # This function is for MainOutPutFiles only
-  def number_of_call_ids(log)
+  def get_call_ids(data, log_file_type)
     call_ids = []
-    File.read(log).each_line { |line|
-      #TODO Change so that lines searched come from the search function (passing in the array ['Interaction Created','New Call','Start'])
-      if (line_matches(line,"Interaction Created") and line_matches(line,"New Call") and line_matches(line,"Start"))
-        call_id = (line.partition('Start|').last).partition('|').first
-        call_ids.push(call_id) unless call_ids.include?(call_id)
-      end
-    }
-    call_ids.size
+    case log_file_type
+      when 'MainOutputLog'
+        search(data, ['Interaction Create', 'New Call', 'Start'], 'and').each { |line|
+          call_id = (line.to_s.partition('Start|').last).partition('|').first
+          call_ids.push(call_id) unless call_ids.include?(call_id)
+        }
+      when 'MainReportLog'
+        search(data, ['New Call\|Interaction Created'], 'and').each { |line|
+          call_id = line.to_s.partition('|New Call').first
+          call_ids.push(call_id) unless call_ids.include?(call_id)
+        }
+      else
+        raise IOError, "The file type \"#{log_file_type}\" is invalid"
+    end
+    call_ids
+  end
+
+  def get_number_of_call_ids(log, log_file_type)
+    get_call_ids(log, log_file_type).size
   end
 
 end

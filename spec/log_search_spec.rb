@@ -26,17 +26,28 @@ describe LogSearch do
     it 'should return an array containing the correct number of lines when and operator is used on multiple keywords' do
       expect(subject.search('TestLogs/test.txt', ['Utilities','ReadRegistry'], 'and').length).to eq(7)
     end
+    it 'should return 0 if passed a main output log file with no logs in it' do
+      expect(subject.get_number_of_call_ids('TestLogs/empty_folder/readme.txt' , 'MainOutputLog')).to equal(0)
+    end
 
+    it 'should return the correct number of call IDs from a populated main output log file' do
+      expect(subject.get_number_of_call_ids('TestLogs/test.txt' , 'MainOutputLog')).to equal(4)
+    end
 
-  end
+    it 'An operator was not passed for multiple keywords' do
+      expect {subject.get_number_of_call_ids('TestLogs/test.txt', 'UnknownLog') }.to raise_error IOError
+    end
 
-  it 'should return 0 if passed a file with no logs in it' do
-    expect(subject.number_of_call_ids('TestLogs/empty_folder/readme.txt')).to equal(0)
-  end
+    it 'should return 0 if passed a main report log file with no logs in it' do
+      expect(subject.get_number_of_call_ids('TestLogs/empty_folder/readme.txt' , 'MainReportLog')).to equal(0)
+    end
 
+    it 'should return the correct number of call IDs from a populated main output log file' do
+      expect(subject.get_number_of_call_ids('TestLogs/test.txt' , 'MainReportLog')).to equal(2)
+    end
 
-  it 'should return the correct number of call IDs' do
-    expect(subject.number_of_call_ids('TestLogs/test.txt')).to equal(4)
+    #TODO pass in something that is not a file, should raise error
+
   end
 
 end
