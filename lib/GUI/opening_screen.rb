@@ -46,6 +46,7 @@ class OpeningScreen
   TkGrid.rowconfigure display_files, 0, :weight => 1
 
   Tk::Tile::Button.new(display_files) {text 'Show Call IDs'; command {show_ids($list.curselection)}}.grid( :column => 0, :row => 2, :sticky => 'w')
+  Tk::Tile::Button.new(display_files) {text 'Search'; command {search}}.grid( :column => 0, :row => 2, :sticky => 'E')
 
   notebook.add display_files, :text => 'Main Output Files', :state => 'normal'
 
@@ -92,6 +93,20 @@ def show_ids(files)
   files.each_index { |i| returned_ids = log_search.get_call_ids($file_list[i], 'MainOutputLog');
     returned_ids.each_index { |j| $call_ids.push(returned_ids[j]); $call_id_listvar.value = $call_ids}
   }
+end
+
+def search
+  log_search = LogSearch.new
+  search_window = TkToplevel.new
+  search_window.title = 'Search Logs'
+  search_window.geometry ='500x300'
+
+  $keyword = TkVariable.new
+  $search_box = Tk::Tile::Entry.new(search_window) {width 50; textvariable $keyword}.grid( :column => 1, :row => 0, :sticky => 'we' )
+  Tk::Tile::Button.new(search_window) {text 'Find'; command {}}.grid( :column => 3, :row => 0, :sticky => 'w')
+
+  puts log_search.search($file_list[0] , ['2015-01-21 09:54:39.905|CRecord::StaticCallReportDataEvent - CallId = V002C000000004421012015095439905, DataName = Pilot Number, Value = P'] , nil)
+
 end
 
 OpeningScreen.new
