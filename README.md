@@ -12,7 +12,8 @@ The purpose of an entry meeting is to:
 - Create git Branch
 
 ``` shell
-git checkout -b [branch_name]
+git checkout -b <branch_name>
+git push origin <branch_name>
 ```
 
 - Start by creating tests first
