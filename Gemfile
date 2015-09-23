@@ -1,7 +1,11 @@
 source 'http://rubygems.org'
 
-gem 'rake'
-gem 'rspec'
-gem 'cucumber'
+gemspec
 
-gem 'simplecov'
+group :testing do
+  gem 'rake'
+  gem 'rspec'
+  gem 'cucumber'
+
+  gem 'simplecov'
+end

@@ -3,7 +3,7 @@ begin
   require 'cucumber/rake/task'
   
   task :gem do
-    system 'gem build log-viewer.gemspec'
+    system 'gem build pp-log-viewer.gemspec'
   end
 
   Cucumber::Rake::Task.new(:features) do |t|
@@ -11,7 +11,7 @@ begin
   end
   
   RSpec::Core::RakeTask.new(:spec) do |t|
-    t.rspec_opts = "--format documentation"
+    t.rspec_opts = "--color --format documentation"
   end
   
   task :default => [:spec,:features,:gem]
